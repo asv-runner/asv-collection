@@ -1,0 +1,433 @@
+[
+    {
+        "change_rev": [
+            6136,
+            6363
+        ],
+        "idx": null,
+        "last_err": 0.005649677838709714,
+        "last_rev": 6656,
+        "last_value": 0.21525579549999985,
+        "name": "client.ClientSuite.time_trivial_tasks",
+        "pretty_name": "client.ClientSuite.time_trivial_tasks",
+        "prev_value": 0.7835255499999998
+    },
+    {
+        "change_rev": [
+            5737,
+            5741
+        ],
+        "idx": null,
+        "last_err": 0.00037600516370967613,
+        "last_rev": 7290,
+        "last_value": 0.024389672900000006,
+        "name": "comm.Connect.time_inproc_connect",
+        "pretty_name": "comm.Connect.time_inproc_connect",
+        "prev_value": 0.02300670704999999
+    },
+    {
+        "change_rev": [
+            null,
+            5737
+        ],
+        "idx": null,
+        "last_err": 0.0007900522375000003,
+        "last_rev": 7260,
+        "last_value": 0.05651079424999998,
+        "name": "comm.Connect.time_tcp_connect",
+        "pretty_name": "comm.Connect.time_tcp_connect",
+        "prev_value": 0.05343288150000003
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 6.092588347053136e-07,
+        "last_rev": 7290,
+        "last_value": 3.2465154844007166e-05,
+        "name": "comm.LoopOverhead.time_loop_run_sync",
+        "pretty_name": "comm.LoopOverhead.time_loop_run_sync",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 3.185761426800204e-07,
+        "last_rev": 7290,
+        "last_value": 1.5490423559443e-05,
+        "name": "comm.LoopOverhead.time_loop_start_stop",
+        "pretty_name": "comm.LoopOverhead.time_loop_start_stop",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0001458345357899345,
+        "last_rev": 7290,
+        "last_value": 0.010475708674999999,
+        "name": "comm.Transfer.time_inproc_large_transfers",
+        "pretty_name": "comm.Transfer.time_inproc_large_transfers",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.00012121882372460974,
+        "last_rev": 7290,
+        "last_value": 0.010454815374999992,
+        "name": "comm.Transfer.time_inproc_small_transfers",
+        "pretty_name": "comm.Transfer.time_inproc_small_transfers",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            6028,
+            6037
+        ],
+        "idx": null,
+        "last_err": 0.04896796393333333,
+        "last_rev": 7260,
+        "last_value": 0.8794794980000001,
+        "name": "comm.Transfer.time_tcp_large_transfers",
+        "pretty_name": "comm.Transfer.time_tcp_large_transfers",
+        "prev_value": 12.4118099545
+    },
+    {
+        "change_rev": [
+            6653,
+            6656
+        ],
+        "idx": null,
+        "last_err": 0.059351261700000046,
+        "last_rev": 7260,
+        "last_value": 2.300437981,
+        "name": "comm.Transfer.time_tcp_large_transfers_no_serialize",
+        "pretty_name": "comm.Transfer.time_tcp_large_transfers_no_serialize",
+        "prev_value": 1.916647406
+    },
+    {
+        "change_rev": [
+            6653,
+            6656
+        ],
+        "idx": null,
+        "last_err": 0.05512990299999991,
+        "last_rev": 7260,
+        "last_value": 2.2833261655,
+        "name": "comm.Transfer.time_tcp_large_transfers_uncompressible",
+        "pretty_name": "comm.Transfer.time_tcp_large_transfers_uncompressible",
+        "prev_value": 2.000931981
+    },
+    {
+        "change_rev": [
+            6653,
+            6656
+        ],
+        "idx": null,
+        "last_err": 0.001349798174999997,
+        "last_rev": 7260,
+        "last_value": 0.07055196449999998,
+        "name": "comm.Transfer.time_tcp_small_transfers",
+        "pretty_name": "comm.Transfer.time_tcp_small_transfers",
+        "prev_value": 0.04146265533333334
+    },
+    {
+        "change_rev": [
+            6028,
+            6037
+        ],
+        "idx": 0,
+        "last_err": 0.0006477745473684322,
+        "last_rev": 7290,
+        "last_value": 0.2347729114999999,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('large1')",
+        "prev_value": 2.267546359499999
+    },
+    {
+        "change_rev": [
+            6028,
+            6037
+        ],
+        "idx": 1,
+        "last_err": 0.0009412990137676267,
+        "last_rev": 7290,
+        "last_value": 0.006000475044999998,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('large2')",
+        "prev_value": 0.36244085235000006
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 1.4703507875210032e-05,
+        "last_rev": 7290,
+        "last_value": 0.00044728085187146913,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('medium1')",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 3,
+        "last_err": 4.603116504158846e-06,
+        "last_rev": 7290,
+        "last_value": 0.00016899397481001958,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('medium2')",
+        "prev_value": 0.00015186872130387708
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 4,
+        "last_err": 5.124015999741782e-06,
+        "last_rev": 7290,
+        "last_value": 0.0003530223210988263,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('medium3')",
+        "prev_value": 0.00033836419601414303
+    },
+    {
+        "change_rev": [
+            6136,
+            6363
+        ],
+        "idx": 5,
+        "last_err": 5.321878748497951e-07,
+        "last_rev": 7290,
+        "last_value": 1.9639648001282966e-05,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('small1')",
+        "prev_value": 1.8031841755080034e-05
+    },
+    {
+        "change_rev": [
+            6136,
+            6363
+        ],
+        "idx": 6,
+        "last_err": 2.184205817230839e-07,
+        "last_rev": 7290,
+        "last_value": 8.932179634831263e-06,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('small2')",
+        "prev_value": 7.332726644231463e-06
+    },
+    {
+        "change_rev": [
+            6136,
+            6363
+        ],
+        "idx": 7,
+        "last_err": 2.715062865915109e-07,
+        "last_rev": 7290,
+        "last_value": 8.987119676110287e-06,
+        "name": "protocol.Protocol.time_dumps",
+        "pretty_name": "protocol.Protocol.time_dumps('small3')",
+        "prev_value": 7.419230569248428e-06
+    },
+    {
+        "change_rev": [
+            6028,
+            6037
+        ],
+        "idx": 0,
+        "last_err": 0.0004958527868421243,
+        "last_rev": 7290,
+        "last_value": 0.10100828950000018,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('large1')",
+        "prev_value": 4.6863489734999995
+    },
+    {
+        "change_rev": [
+            6028,
+            6037
+        ],
+        "idx": 1,
+        "last_err": 0.00031971799122806877,
+        "last_rev": 7290,
+        "last_value": 0.03923397816666663,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('large2')",
+        "prev_value": 5.2123460580000005
+    },
+    {
+        "change_rev": [
+            null,
+            6091
+        ],
+        "idx": 2,
+        "last_err": 3.595991055765069e-06,
+        "last_rev": 7290,
+        "last_value": 0.00012972179501216524,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('medium1')",
+        "prev_value": 0.0001246597263092269
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 3,
+        "last_err": 1.0732084149242542e-06,
+        "last_rev": 7290,
+        "last_value": 3.5120386147418365e-05,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('medium2')",
+        "prev_value": 2.8416882471071227e-05
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 4,
+        "last_err": 1.7823884196648289e-06,
+        "last_rev": 7290,
+        "last_value": 9.090904379415216e-05,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('medium3')",
+        "prev_value": 8.546464740318309e-05
+    },
+    {
+        "change_rev": [
+            6577,
+            6582
+        ],
+        "idx": 5,
+        "last_err": 3.275362559738866e-07,
+        "last_rev": 7290,
+        "last_value": 7.064810487958997e-06,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('small1')",
+        "prev_value": 1.0093722744014748e-05
+    },
+    {
+        "change_rev": [
+            7040,
+            7127
+        ],
+        "idx": 6,
+        "last_err": 1.8337150254194738e-07,
+        "last_rev": 7290,
+        "last_value": 4.4019794793465315e-06,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('small2')",
+        "prev_value": 3.754988928107009e-06
+    },
+    {
+        "change_rev": [
+            7127,
+            7232
+        ],
+        "idx": 7,
+        "last_err": 7.474864505096408e-08,
+        "last_rev": 7290,
+        "last_value": 3.896069407401821e-06,
+        "name": "protocol.Protocol.time_loads",
+        "pretty_name": "protocol.Protocol.time_loads('small3')",
+        "prev_value": 3.270346095755604e-06
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 0,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 41505561.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('large1')",
+        "prev_value": 41505511.0
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 1,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 104857812.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('large2')",
+        "prev_value": 104857762.0
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 2,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 41113.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('medium1')",
+        "prev_value": 41063.0
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 3,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 102609.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('medium2')",
+        "prev_value": 102559.0
+    },
+    {
+        "change_rev": [
+            6656,
+            6885
+        ],
+        "idx": 4,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 40347.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('medium3')",
+        "prev_value": 40296.0
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 271.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('small1')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 335.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('small2')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 0.0,
+        "last_rev": 7290,
+        "last_value": 100.0,
+        "name": "protocol.Protocol.track_size",
+        "pretty_name": "protocol.Protocol.track_size('small3')",
+        "prev_value": null
+    }
+]
