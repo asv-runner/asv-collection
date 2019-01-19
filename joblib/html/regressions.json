@@ -1,78 +1,6 @@
 {
     "regressions": [
         [
-            "bench_parallel_time.BytesSuite.time_bytes_as_output(10000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
-            {},
-            0,
-            [
-                [
-                    [
-                        null,
-                        2693,
-                        0.016937405500000002,
-                        0.025808406000000006
-                    ],
-                    [
-                        null,
-                        2709,
-                        0.025808406000000006,
-                        0.04414658099999999
-                    ]
-                ],
-                0.04414658099999999,
-                0.016937405500000002
-            ]
-        ],
-        [
-            "bench_parallel_time.BytesSuite.time_bytes_as_output(100000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
-            {},
-            1,
-            [
-                [
-                    [
-                        null,
-                        2693,
-                        0.017591427000000007,
-                        0.027054334000000013
-                    ],
-                    [
-                        null,
-                        2709,
-                        0.027054334000000013,
-                        0.04475541999999999
-                    ]
-                ],
-                0.04475541999999999,
-                0.017591427000000007
-            ]
-        ],
-        [
-            "bench_parallel_time.BytesSuite.time_bytes_as_output(1000000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
-            {},
-            2,
-            [
-                [
-                    [
-                        null,
-                        2693,
-                        0.026417084000000007,
-                        0.035930935
-                    ],
-                    [
-                        null,
-                        2709,
-                        0.035930935,
-                        0.05482162600000001
-                    ]
-                ],
-                0.05482162600000001,
-                0.026417084000000007
-            ]
-        ],
-        [
             "bench_parallel_time.NpArraySuite.time_np_array_as_input((100, 100), True)",
             "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.NpArraySuite.time_np_array_as_input.json",
             {},
@@ -181,8 +109,8 @@
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_output(10000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
+            "bench_parallel_time.DictSuite.time_dict_as_input(10000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
             {},
             0,
             [
@@ -190,17 +118,17 @@
                     [
                         null,
                         2709,
-                        0.05604364499999999,
-                        0.06934679900000001
+                        0.039107865500000005,
+                        0.6957642730000001
                     ]
                 ],
-                0.06934679900000001,
-                0.05604364499999999
+                0.6957642730000001,
+                0.039107865500000005
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_output(100000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
+            "bench_parallel_time.DictSuite.time_dict_as_input(100000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
             {},
             1,
             [
@@ -208,17 +136,17 @@
                     [
                         null,
                         2709,
-                        0.23619460949999999,
-                        0.283997123
+                        0.1299045605,
+                        5.820163417
                     ]
                 ],
-                0.283997123,
-                0.23619460949999999
+                5.820163417,
+                0.1299045605
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_output(1000000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
+            "bench_parallel_time.DictSuite.time_dict_as_input(1000000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
             {},
             2,
             [
@@ -226,12 +154,12 @@
                     [
                         null,
                         2709,
-                        1.709864989,
-                        2.192569779
+                        0.996093305,
+                        57.467024450000004
                     ]
                 ],
-                2.192569779,
-                1.709864989
+                57.467024450000004,
+                0.996093305
             ]
         ],
         [
@@ -325,57 +253,21 @@
             ]
         ],
         [
-            "bench_parallel_time.ListSuite.time_list_as_output(10000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
+            "bench_parallel_peakmem.NpArraySuite.peakmem_np_array_as_input((1000, 1000), False)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_peakmem.NpArraySuite.peakmem_np_array_as_input.json",
             {},
-            0,
+            5,
             [
                 [
                     [
                         null,
                         2709,
-                        0.041978018500000006,
-                        0.057798975
+                        78653440.0,
+                        86585344.0
                     ]
                 ],
-                0.057798975,
-                0.041978018500000006
-            ]
-        ],
-        [
-            "bench_parallel_time.ListSuite.time_list_as_output(100000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
-            {},
-            1,
-            [
-                [
-                    [
-                        null,
-                        2709,
-                        0.1053725705,
-                        0.128820237
-                    ]
-                ],
-                0.128820237,
-                0.1053725705
-            ]
-        ],
-        [
-            "bench_parallel_time.ListSuite.time_list_as_output(1000000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
-            {},
-            2,
-            [
-                [
-                    [
-                        null,
-                        2709,
-                        0.6218788070000001,
-                        0.816286927
-                    ]
-                ],
-                0.816286927,
-                0.6218788070000001
+                86585344.0,
+                78653440.0
             ]
         ],
         [
@@ -487,8 +379,8 @@
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_input(10000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
+            "bench_parallel_time.DictSuite.time_dict_as_output(10000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
             {},
             0,
             [
@@ -496,17 +388,17 @@
                     [
                         null,
                         2709,
-                        0.039107865500000005,
-                        0.6957642730000001
+                        0.05604364499999999,
+                        0.06934679900000001
                     ]
                 ],
-                0.6957642730000001,
-                0.039107865500000005
+                0.06934679900000001,
+                0.05604364499999999
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_input(100000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
+            "bench_parallel_time.DictSuite.time_dict_as_output(100000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
             {},
             1,
             [
@@ -514,17 +406,17 @@
                     [
                         null,
                         2709,
-                        0.1299045605,
-                        5.820163417
+                        0.23619460949999999,
+                        0.283997123
                     ]
                 ],
-                5.820163417,
-                0.1299045605
+                0.283997123,
+                0.23619460949999999
             ]
         ],
         [
-            "bench_parallel_time.DictSuite.time_dict_as_input(1000000)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_input.json",
+            "bench_parallel_time.DictSuite.time_dict_as_output(1000000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.DictSuite.time_dict_as_output.json",
             {},
             2,
             [
@@ -532,12 +424,12 @@
                     [
                         null,
                         2709,
-                        0.996093305,
-                        57.467024450000004
+                        1.709864989,
+                        2.192569779
                     ]
                 ],
-                57.467024450000004,
-                0.996093305
+                2.192569779,
+                1.709864989
             ]
         ],
         [
@@ -592,24 +484,6 @@
                 ],
                 28.639978542,
                 0.47227677375
-            ]
-        ],
-        [
-            "bench_parallel_peakmem.NpArraySuite.peakmem_np_array_as_input((1000, 1000), False)",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_peakmem.NpArraySuite.peakmem_np_array_as_input.json",
-            {},
-            5,
-            [
-                [
-                    [
-                        null,
-                        2709,
-                        78653440.0,
-                        86585344.0
-                    ]
-                ],
-                86585344.0,
-                78653440.0
             ]
         ],
         [
@@ -682,6 +556,132 @@
                 ],
                 0.07114842600000001,
                 0.03127582999999999
+            ]
+        ],
+        [
+            "bench_parallel_time.ListSuite.time_list_as_output(10000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
+            {},
+            0,
+            [
+                [
+                    [
+                        null,
+                        2709,
+                        0.041978018500000006,
+                        0.057798975
+                    ]
+                ],
+                0.057798975,
+                0.041978018500000006
+            ]
+        ],
+        [
+            "bench_parallel_time.ListSuite.time_list_as_output(100000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
+            {},
+            1,
+            [
+                [
+                    [
+                        null,
+                        2709,
+                        0.1053725705,
+                        0.128820237
+                    ]
+                ],
+                0.128820237,
+                0.1053725705
+            ]
+        ],
+        [
+            "bench_parallel_time.ListSuite.time_list_as_output(1000000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.ListSuite.time_list_as_output.json",
+            {},
+            2,
+            [
+                [
+                    [
+                        null,
+                        2709,
+                        0.6218788070000001,
+                        0.816286927
+                    ]
+                ],
+                0.816286927,
+                0.6218788070000001
+            ]
+        ],
+        [
+            "bench_parallel_time.BytesSuite.time_bytes_as_output(10000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
+            {},
+            0,
+            [
+                [
+                    [
+                        null,
+                        2693,
+                        0.016937405500000002,
+                        0.025808406000000006
+                    ],
+                    [
+                        null,
+                        2709,
+                        0.025808406000000006,
+                        0.04414658099999999
+                    ]
+                ],
+                0.04414658099999999,
+                0.016937405500000002
+            ]
+        ],
+        [
+            "bench_parallel_time.BytesSuite.time_bytes_as_output(100000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
+            {},
+            1,
+            [
+                [
+                    [
+                        null,
+                        2693,
+                        0.017591427000000007,
+                        0.027054334000000013
+                    ],
+                    [
+                        null,
+                        2709,
+                        0.027054334000000013,
+                        0.04475541999999999
+                    ]
+                ],
+                0.04475541999999999,
+                0.017591427000000007
+            ]
+        ],
+        [
+            "bench_parallel_time.BytesSuite.time_bytes_as_output(1000000)",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/python-3.5/ram-501692/bench_parallel_time.BytesSuite.time_bytes_as_output.json",
+            {},
+            2,
+            [
+                [
+                    [
+                        null,
+                        2693,
+                        0.026417084000000007,
+                        0.035930935
+                    ],
+                    [
+                        null,
+                        2709,
+                        0.035930935,
+                        0.05482162600000001
+                    ]
+                ],
+                0.05482162600000001,
+                0.026417084000000007
             ]
         ]
     ]

@@ -5,9 +5,9 @@
             9877
         ],
         "idx": null,
-        "last_err": 0.00031065912269574,
-        "last_rev": 11470,
-        "last_value": 0.035683254400889076,
+        "last_err": 0.00030984089508421256,
+        "last_rev": 11473,
+        "last_value": 0.035682519276936844,
         "name": "array.FancyIndexing.time_fancy",
         "pretty_name": "array.FancyIndexing.time_fancy",
         "prev_value": 0.042005300521850586
@@ -18,9 +18,9 @@
             9391
         ],
         "idx": null,
-        "last_err": 0.0013716961704405015,
-        "last_rev": 11470,
-        "last_value": 0.06259948015213013,
+        "last_err": 0.0013695679919820437,
+        "last_rev": 11473,
+        "last_value": 0.06259119510650635,
         "name": "array.Rechunk.time_rechunk",
         "pretty_name": "array.Rechunk.time_rechunk",
         "prev_value": 0.06939353285164669
@@ -31,9 +31,9 @@
             11202
         ],
         "idx": null,
-        "last_err": 0.00010129653456480921,
-        "last_rev": 11470,
-        "last_value": 0.009711818261580032,
+        "last_err": 0.00010061073303222666,
+        "last_rev": 11473,
+        "last_value": 0.009713275866074995,
         "name": "array.Rechunk.time_rechunk_meta",
         "pretty_name": "array.Rechunk.time_rechunk_meta",
         "prev_value": 0.009499213912270286
@@ -51,9 +51,9 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.0004387241633818112,
-        "last_rev": 11470,
-        "last_value": 0.01683243683406285,
+        "last_err": 0.00043874649168953057,
+        "last_rev": 11473,
+        "last_value": 0.016832726342337474,
         "name": "array.Slicing.time_slice_int_tail",
         "pretty_name": "array.Slicing.time_slice_int_tail",
         "prev_value": null
@@ -71,9 +71,9 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.0005382196363493298,
-        "last_rev": 11470,
-        "last_value": 0.036432762940724686,
+        "last_err": 0.0005377572377522788,
+        "last_rev": 11473,
+        "last_value": 0.036438822746276855,
         "name": "array.Slicing.time_slice_slice_tail",
         "pretty_name": "array.Slicing.time_slice_slice_tail",
         "prev_value": null
@@ -84,9 +84,9 @@
             10121
         ],
         "idx": null,
-        "last_err": 0.0008660106598830023,
-        "last_rev": 11470,
-        "last_value": 0.0990607738494873,
+        "last_err": 0.0008635373793885299,
+        "last_rev": 11473,
+        "last_value": 0.09906041622161865,
         "name": "array.TestSubs.time_subs",
         "pretty_name": "array.TestSubs.time_subs",
         "prev_value": 0.1002499520778656
@@ -97,9 +97,9 @@
             6598
         ],
         "idx": null,
-        "last_err": 8.355787582354472e-06,
-        "last_rev": 11470,
-        "last_value": 0.0008021760260527155,
+        "last_err": 8.344589568399661e-06,
+        "last_rev": 11473,
+        "last_value": 0.000802180353962115,
         "name": "array.Tokenize.time_tokenize_large",
         "pretty_name": "array.Tokenize.time_tokenize_large",
         "prev_value": 0.0152357526951366
@@ -107,9 +107,9 @@
     {
         "change_rev": null,
         "idx": 0,
-        "last_err": 0.0009040002423431237,
-        "last_rev": 11470,
-        "last_value": 0.10926258563995361,
+        "last_err": 0.0009091043223937353,
+        "last_rev": 11473,
+        "last_value": 0.10926604270935059,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'reflect')",
         "prev_value": null
@@ -120,22 +120,25 @@
             11202
         ],
         "idx": 1,
-        "last_err": 0.0005766858859938018,
-        "last_rev": 11470,
-        "last_value": 0.10907101631164551,
+        "last_err": 0.00056718111038208,
+        "last_rev": 11473,
+        "last_value": 0.10905677080154419,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'periodic')",
         "prev_value": 0.1075739860534668
     },
     {
-        "change_rev": null,
+        "change_rev": [
+            10967,
+            10972
+        ],
         "idx": 2,
-        "last_err": 0.0008551824779410637,
-        "last_rev": 11470,
-        "last_value": 0.10940194129943848,
+        "last_err": 0.0008031154933728669,
+        "last_rev": 11473,
+        "last_value": 0.10986053943634033,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'nearest')",
-        "prev_value": null
+        "prev_value": 0.10890257358551025
     },
     {
         "change_rev": [
@@ -143,9 +146,9 @@
             11200
         ],
         "idx": 3,
-        "last_err": 0.00017412543296813966,
-        "last_rev": 11470,
-        "last_value": 0.025997042655944824,
+        "last_err": 0.00018015094831878064,
+        "last_rev": 11473,
+        "last_value": 0.025997579097747803,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'none')",
         "prev_value": 0.025344684720039368
@@ -156,9 +159,9 @@
             11202
         ],
         "idx": 4,
-        "last_err": 0.0007862825782931581,
-        "last_rev": 11470,
-        "last_value": 0.11543262004852295,
+        "last_err": 0.0007961654663085938,
+        "last_rev": 11473,
+        "last_value": 0.115436851978302,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'reflect')",
         "prev_value": 0.11418706178665161
@@ -169,9 +172,9 @@
             11152
         ],
         "idx": 5,
-        "last_err": 0.0008861720561981201,
-        "last_rev": 11470,
-        "last_value": 0.11681479215621948,
+        "last_err": 0.0008823759150954913,
+        "last_rev": 11473,
+        "last_value": 0.11681997776031494,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'periodic')",
         "prev_value": 0.11528801918029785
@@ -179,9 +182,9 @@
     {
         "change_rev": null,
         "idx": 6,
-        "last_err": 0.0008359348586716577,
-        "last_rev": 11470,
-        "last_value": 0.11451494693756104,
+        "last_err": 0.0008441656827926636,
+        "last_rev": 11473,
+        "last_value": 0.11452502012252808,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'nearest')",
         "prev_value": null
@@ -192,9 +195,9 @@
             10407
         ],
         "idx": 7,
-        "last_err": 0.00045094625710586484,
-        "last_rev": 11470,
-        "last_value": 0.03273230791091919,
+        "last_err": 0.00045063411700746795,
+        "last_rev": 11473,
+        "last_value": 0.032736241817474365,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'none')",
         "prev_value": 0.07690048217773438
@@ -205,9 +208,9 @@
             9173
         ],
         "idx": null,
-        "last_err": 0.005501073408634104,
-        "last_rev": 11470,
-        "last_value": 0.10851943492889404,
+        "last_err": 0.005488112687432165,
+        "last_rev": 11473,
+        "last_value": 0.10851788520812988,
         "name": "dataframe.MemoryDataFrame.time_boolean_indexing",
         "pretty_name": "dataframe.MemoryDataFrame.time_boolean_indexing",
         "prev_value": 0.09049662947654724
@@ -218,9 +221,9 @@
             9631
         ],
         "idx": null,
-        "last_err": 0.0012845472272632042,
-        "last_rev": 11470,
-        "last_value": 0.04746747016906738,
+        "last_err": 0.001282901340716887,
+        "last_rev": 11473,
+        "last_value": 0.047469496726989746,
         "name": "dataframe.MemoryDataFrame.time_count_values",
         "pretty_name": "dataframe.MemoryDataFrame.time_count_values",
         "prev_value": 0.04986622068617079
@@ -231,9 +234,9 @@
             9013
         ],
         "idx": null,
-        "last_err": 0.008256657367875802,
-        "last_rev": 11470,
-        "last_value": 0.20290398597717285,
+        "last_err": 0.00826590710072321,
+        "last_rev": 11473,
+        "last_value": 0.20289993286132812,
         "name": "dataframe.MemoryDataFrame.time_groupby",
         "pretty_name": "dataframe.MemoryDataFrame.time_groupby",
         "prev_value": 1.5347967743873596
@@ -244,9 +247,9 @@
             9013
         ],
         "idx": null,
-        "last_err": 0.006559344831799772,
-        "last_rev": 11470,
-        "last_value": 0.1841590404510498,
+        "last_err": 0.006622299265757269,
+        "last_rev": 11473,
+        "last_value": 0.18415393928686777,
         "name": "dataframe.MemoryDataFrame.time_reduction",
         "pretty_name": "dataframe.MemoryDataFrame.time_reduction",
         "prev_value": 2.589040756225586
@@ -257,9 +260,9 @@
             10491
         ],
         "idx": null,
-        "last_err": 0.0006464653544955777,
-        "last_rev": 11470,
-        "last_value": 0.03884232044219971,
+        "last_err": 0.0006497653325398763,
+        "last_rev": 11473,
+        "last_value": 0.038842360178629555,
         "name": "dataframe.MemoryDataFrame.time_scalar_comparison",
         "pretty_name": "dataframe.MemoryDataFrame.time_scalar_comparison",
         "prev_value": 0.037139336268107094
@@ -270,9 +273,9 @@
             9013
         ],
         "idx": null,
-        "last_err": 0.01219379425907637,
-        "last_rev": 11470,
-        "last_value": 0.23830914497375488,
+        "last_err": 0.012266304655718237,
+        "last_rev": 11473,
+        "last_value": 0.23834407329559326,
         "name": "dataframe.MemoryDataFrame.time_set_index",
         "pretty_name": "dataframe.MemoryDataFrame.time_set_index",
         "prev_value": 0.7951333324114482
@@ -284,7 +287,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -294,7 +297,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
@@ -304,37 +307,37 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 0,
-        "last_err": 7.598400115966814e-05,
-        "last_rev": 11470,
-        "last_value": 0.02452230453491211,
+        "last_err": 0.0,
+        "last_rev": 11473,
+        "last_value": 0.024516773223876954,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 1,
-        "last_err": 7.660388946533273e-05,
-        "last_rev": 11470,
-        "last_value": 0.024506402015686032,
+        "last_err": 0.0,
+        "last_rev": 11473,
+        "last_value": 0.024656200408935548,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 2,
-        "last_err": 0.00012593269348144462,
-        "last_rev": 11470,
-        "last_value": 0.024642801284790038,
+        "last_err": 0.0,
+        "last_rev": 11473,
+        "last_value": 0.026744484901428223,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
@@ -344,7 +347,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -354,7 +357,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
@@ -364,17 +367,17 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 0,
-        "last_err": 0.0010202527046203613,
-        "last_rev": 11470,
-        "last_value": 0.19822049140930176,
+        "last_err": 0.0,
+        "last_rev": 11473,
+        "last_value": 0.2000190019607544,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -384,17 +387,17 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 2,
-        "last_err": 0.0006827414035797119,
-        "last_rev": 11470,
-        "last_value": 0.19868600368499756,
+        "last_err": 0.0,
+        "last_rev": 11473,
+        "last_value": 0.20063447952270508,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     }
 ]

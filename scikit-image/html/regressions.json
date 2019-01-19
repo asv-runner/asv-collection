@@ -1,28 +1,6 @@
 {
     "regressions": [
         [
-            "benchmark_morphology.Skeletonize3d.time_skeletonize_3d",
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/cython-0.27/machine-asv-runner/matplotlib-2.2/numpy-1.14/os-Linux 3.13.0-116-generic/python-3.6/ram-501692/scipy-1.0/six-1.10/benchmark_morphology.Skeletonize3d.time_skeletonize_3d.json",
-            {
-                "cython": "0.27",
-                "numpy": "1.14",
-                "scipy": "1.0"
-            },
-            null,
-            [
-                [
-                    [
-                        null,
-                        10924,
-                        0.16388881399999994,
-                        0.28090787549999985
-                    ]
-                ],
-                0.28090787549999985,
-                0.16388881399999994
-            ]
-        ],
-        [
             "benchmark_exposure.ExposureSuite.time_equalize_hist",
             "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/cython-0.27/machine-asv-runner/matplotlib-2.2/numpy-1.13/os-Linux 3.13.0-116-generic/python-3.6/ram-501692/scipy-1.0/six-1.10/benchmark_exposure.ExposureSuite.time_equalize_hist.json",
             {
@@ -42,6 +20,28 @@
                 ],
                 1.058515287,
                 0.2533969789999999
+            ]
+        ],
+        [
+            "benchmark_morphology.Skeletonize3d.time_skeletonize_3d",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/cython-0.27/machine-asv-runner/matplotlib-2.2/numpy-1.14/os-Linux 3.13.0-116-generic/python-3.6/ram-501692/scipy-1.0/six-1.10/benchmark_morphology.Skeletonize3d.time_skeletonize_3d.json",
+            {
+                "cython": "0.27",
+                "numpy": "1.14",
+                "scipy": "1.0"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        10924,
+                        0.16388881399999994,
+                        0.28090787549999985
+                    ]
+                ],
+                0.28090787549999985,
+                0.16388881399999994
             ]
         ]
     ]

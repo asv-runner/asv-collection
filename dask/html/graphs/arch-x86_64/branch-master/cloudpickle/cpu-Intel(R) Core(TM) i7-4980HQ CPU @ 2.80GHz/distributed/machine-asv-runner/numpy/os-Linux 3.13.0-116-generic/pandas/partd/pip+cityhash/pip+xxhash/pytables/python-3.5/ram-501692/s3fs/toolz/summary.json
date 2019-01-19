@@ -5,25 +5,25 @@
             9877
         ],
         "idx": null,
-        "last_err": 0.00029596075528741644,
-        "last_rev": 11470,
-        "last_value": 0.0371202367823571,
+        "last_err": 0.00029540470121992005,
+        "last_rev": 11473,
+        "last_value": 0.037115727978137635,
         "name": "array.FancyIndexing.time_fancy",
         "pretty_name": "array.FancyIndexing.time_fancy",
         "prev_value": 0.04376712813973427
     },
     {
         "change_rev": [
-            null,
-            10004
+            11222,
+            11224
         ],
         "idx": null,
-        "last_err": 0.0006635729087455159,
-        "last_rev": 11470,
-        "last_value": 0.03772221174872452,
+        "last_err": 0.0006243469963212394,
+        "last_rev": 11473,
+        "last_value": 0.03845796041423455,
         "name": "array.Rechunk.time_rechunk",
         "pretty_name": "array.Rechunk.time_rechunk",
-        "prev_value": 0.038507771057387195
+        "prev_value": 0.03751167774316855
     },
     {
         "change_rev": [
@@ -31,9 +31,9 @@
             11142
         ],
         "idx": null,
-        "last_err": 0.0002924649838024202,
-        "last_rev": 11470,
-        "last_value": 0.011181982945547335,
+        "last_err": 0.0002887729787631739,
+        "last_rev": 11473,
+        "last_value": 0.011188597722341202,
         "name": "array.Rechunk.time_rechunk_meta",
         "pretty_name": "array.Rechunk.time_rechunk_meta",
         "prev_value": 0.010854915596428327
@@ -41,9 +41,9 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.00036637527754712667,
-        "last_rev": 11470,
-        "last_value": 0.018771488568745553,
+        "last_err": 0.00036582786586835504,
+        "last_rev": 11473,
+        "last_value": 0.018771733079726495,
         "name": "array.Slicing.time_slice_int_head",
         "pretty_name": "array.Slicing.time_slice_int_head",
         "prev_value": null
@@ -51,8 +51,8 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.0003359895986381716,
-        "last_rev": 11470,
+        "last_err": 0.0003352111774689648,
+        "last_rev": 11473,
         "last_value": 0.01875418498336027,
         "name": "array.Slicing.time_slice_int_tail",
         "pretty_name": "array.Slicing.time_slice_int_tail",
@@ -61,8 +61,8 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.0007649423711033968,
-        "last_rev": 11470,
+        "last_err": 0.0007622276226017872,
+        "last_rev": 11473,
         "last_value": 0.037757673708256334,
         "name": "array.Slicing.time_slice_slice_head",
         "pretty_name": "array.Slicing.time_slice_slice_head",
@@ -71,8 +71,8 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.000698888668745387,
-        "last_rev": 11470,
+        "last_err": 0.0007022859993609528,
+        "last_rev": 11473,
         "last_value": 0.037849817890673876,
         "name": "array.Slicing.time_slice_slice_tail",
         "pretty_name": "array.Slicing.time_slice_slice_tail",
@@ -84,9 +84,9 @@
             10158
         ],
         "idx": null,
-        "last_err": 0.0006339933177221262,
-        "last_rev": 11470,
-        "last_value": 0.0641372147219954,
+        "last_err": 0.0006447387231044075,
+        "last_rev": 11473,
+        "last_value": 0.06414812273578718,
         "name": "array.TestSubs.time_subs",
         "pretty_name": "array.TestSubs.time_subs",
         "prev_value": 0.06601391732692719
@@ -97,9 +97,9 @@
             6598
         ],
         "idx": null,
-        "last_err": 8.249948088613356e-06,
-        "last_rev": 11470,
-        "last_value": 0.0008019785988178567,
+        "last_err": 8.308089765992934e-06,
+        "last_rev": 11473,
+        "last_value": 0.0008019539969463418,
         "name": "array.Tokenize.time_tokenize_large",
         "pretty_name": "array.Tokenize.time_tokenize_large",
         "prev_value": 0.01523668086156249
@@ -110,9 +110,9 @@
             11200
         ],
         "idx": 0,
-        "last_err": 0.0008961930382065475,
-        "last_rev": 11470,
-        "last_value": 0.0830708827561466,
+        "last_err": 0.0008675047485247398,
+        "last_rev": 11473,
+        "last_value": 0.08317287451063748,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'reflect')",
         "prev_value": 0.08128615499992975
@@ -123,22 +123,25 @@
             11284
         ],
         "idx": 1,
-        "last_err": 0.0010449781007732131,
-        "last_rev": 11470,
-        "last_value": 0.08337666594889015,
+        "last_err": 0.0010062058883098266,
+        "last_rev": 11473,
+        "last_value": 0.08344622596632689,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'periodic')",
         "prev_value": 0.08106942847371101
     },
     {
-        "change_rev": null,
+        "change_rev": [
+            11200,
+            11202
+        ],
         "idx": 2,
-        "last_err": 0.0011506373786154302,
-        "last_rev": 11470,
-        "last_value": 0.08180481963790953,
+        "last_err": 0.0011016612355460359,
+        "last_rev": 11473,
+        "last_value": 0.08319192205090076,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'nearest')",
-        "prev_value": null
+        "prev_value": 0.08145271008834243
     },
     {
         "change_rev": [
@@ -146,9 +149,9 @@
             10407
         ],
         "idx": 3,
-        "last_err": 0.001675720964808113,
-        "last_rev": 11470,
-        "last_value": 0.022956299653742462,
+        "last_err": 0.0016810676838299415,
+        "last_rev": 11473,
+        "last_value": 0.0229643514030613,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((100, 100, 100), 'none')",
         "prev_value": 0.04104918451048434
@@ -156,9 +159,9 @@
     {
         "change_rev": null,
         "idx": 4,
-        "last_err": 0.0011309151296167274,
-        "last_rev": 11470,
-        "last_value": 0.0878319969997392,
+        "last_err": 0.0011512515338124958,
+        "last_rev": 11473,
+        "last_value": 0.08783891948405653,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'reflect')",
         "prev_value": null
@@ -166,9 +169,9 @@
     {
         "change_rev": null,
         "idx": 5,
-        "last_err": 0.0012421416396516075,
-        "last_rev": 11470,
-        "last_value": 0.09163234801962972,
+        "last_err": 0.0012710404634038552,
+        "last_rev": 11473,
+        "last_value": 0.09163247898686677,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'periodic')",
         "prev_value": null
@@ -176,9 +179,9 @@
     {
         "change_rev": null,
         "idx": 6,
-        "last_err": 0.0012114204581630307,
-        "last_rev": 11470,
-        "last_value": 0.08792431396432221,
+        "last_err": 0.0012198583016122236,
+        "last_rev": 11473,
+        "last_value": 0.08796253590844572,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'nearest')",
         "prev_value": null
@@ -189,9 +192,9 @@
             11202
         ],
         "idx": 7,
-        "last_err": 0.00036709828042507574,
-        "last_rev": 11470,
-        "last_value": 0.028225607762578875,
+        "last_err": 0.000370270208614647,
+        "last_rev": 11473,
+        "last_value": 0.028289805879467167,
         "name": "array_overlap.MapOverlap.time_map_overlap",
         "pretty_name": "array_overlap.MapOverlap.time_map_overlap((50, 512, 512), 'none')",
         "prev_value": 0.02731812314596027
@@ -202,9 +205,9 @@
             9173
         ],
         "idx": null,
-        "last_err": 0.001975809357751456,
-        "last_rev": 11470,
-        "last_value": 0.10735685605322942,
+        "last_err": 0.001987903367248258,
+        "last_rev": 11473,
+        "last_value": 0.10736313689267263,
         "name": "dataframe.MemoryDataFrame.time_boolean_indexing",
         "pretty_name": "dataframe.MemoryDataFrame.time_boolean_indexing",
         "prev_value": 0.0920694352168104
@@ -215,9 +218,9 @@
             8984
         ],
         "idx": null,
-        "last_err": 0.0015257494817780045,
-        "last_rev": 11470,
-        "last_value": 0.04492656164802611,
+        "last_err": 0.001526218219298381,
+        "last_rev": 11473,
+        "last_value": 0.044929868231217064,
         "name": "dataframe.MemoryDataFrame.time_count_values",
         "pretty_name": "dataframe.MemoryDataFrame.time_count_values",
         "prev_value": 0.27760448725894094
@@ -228,9 +231,9 @@
             9013
         ],
         "idx": null,
-        "last_err": 0.005930950203017496,
-        "last_rev": 11470,
-        "last_value": 0.19876023987308145,
+        "last_err": 0.005941111697636285,
+        "last_rev": 11473,
+        "last_value": 0.19873613794334233,
         "name": "dataframe.MemoryDataFrame.time_groupby",
         "pretty_name": "dataframe.MemoryDataFrame.time_groupby",
         "prev_value": 1.7396158589981496
@@ -241,9 +244,9 @@
             9013
         ],
         "idx": null,
-        "last_err": 0.004262677510450892,
-        "last_rev": 11470,
-        "last_value": 0.16850549005903304,
+        "last_err": 0.004265780063627101,
+        "last_rev": 11473,
+        "last_value": 0.16851759247947484,
         "name": "dataframe.MemoryDataFrame.time_reduction",
         "pretty_name": "dataframe.MemoryDataFrame.time_reduction",
         "prev_value": 2.370957560837269
@@ -254,25 +257,25 @@
             9173
         ],
         "idx": null,
-        "last_err": 0.0004765243157736407,
-        "last_rev": 11470,
-        "last_value": 0.034077499323757365,
+        "last_err": 0.00047869320916395545,
+        "last_rev": 11473,
+        "last_value": 0.03407890672679059,
         "name": "dataframe.MemoryDataFrame.time_scalar_comparison",
         "pretty_name": "dataframe.MemoryDataFrame.time_scalar_comparison",
         "prev_value": 0.029792939063528895
     },
     {
         "change_rev": [
-            9155,
-            9173
+            11383,
+            11389
         ],
         "idx": null,
-        "last_err": 0.005944624555835093,
-        "last_rev": 11470,
-        "last_value": 0.23437940949224867,
+        "last_err": 0.00523979737508026,
+        "last_rev": 11473,
+        "last_value": 0.2633422459475696,
         "name": "dataframe.MemoryDataFrame.time_set_index",
         "pretty_name": "dataframe.MemoryDataFrame.time_set_index",
-        "prev_value": 0.20669354684650898
+        "prev_value": 0.23416948993690312
     },
     {
         "change_rev": null,
@@ -281,7 +284,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -291,7 +294,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
@@ -301,37 +304,37 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.CSV.time_read_csv",
-        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.CSV.time_read_csv(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 0,
-        "last_err": 0.00019393812399357523,
-        "last_rev": 11470,
-        "last_value": 0.02467645867727697,
+        "last_err": 1.2572621926665306e-05,
+        "last_rev": 11473,
+        "last_value": 0.024507496645674108,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 1,
-        "last_err": 0.00011252739932388067,
-        "last_rev": 11470,
-        "last_value": 0.024658083682879806,
+        "last_err": 6.70139677822583e-05,
+        "last_rev": 11473,
+        "last_value": 0.024454412702471017,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 2,
-        "last_err": 7.138792425394076e-05,
-        "last_rev": 11470,
-        "last_value": 0.024498846428468824,
+        "last_err": 0.0001000880729407072,
+        "last_rev": 11473,
+        "last_value": 0.024775908747687935,
         "name": "io.CSV.time_read_csv_meta",
-        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.CSV.time_read_csv_meta(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
@@ -341,7 +344,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -351,7 +354,7 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
@@ -361,17 +364,17 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5",
-        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.HDF5.time_read_hdf5(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 0,
-        "last_err": 0.00530323717975989,
-        "last_rev": 11470,
-        "last_value": 0.2129237389890477,
+        "last_err": 8.169061038643122e-05,
+        "last_rev": 11473,
+        "last_value": 0.21274008497130126,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get_sync at 0x7f453c95fde8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get_sync at 0x7fda0d646ed8>)",
         "prev_value": null
     },
     {
@@ -381,17 +384,17 @@
         "last_rev": null,
         "last_value": null,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7f453c2952a8>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7fda0d18b320>)",
         "prev_value": null
     },
     {
         "change_rev": null,
         "idx": 2,
-        "last_err": 0.0003010050277225673,
-        "last_rev": 11470,
-        "last_value": 0.21176892484072596,
+        "last_err": 0.0005277482559904456,
+        "last_rev": 11473,
+        "last_value": 0.21131659962702543,
         "name": "io.HDF5.time_read_hdf5_meta",
-        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7f453c6f2c80>)",
+        "pretty_name": "io.HDF5.time_read_hdf5_meta(<function get at 0x7fda0d3d5c80>)",
         "prev_value": null
     }
 ]
