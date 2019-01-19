@@ -1,0 +1,1968 @@
+[
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.4803810193444446,
+        "last_rev": 2583,
+        "last_value": 57.268102993,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((3650, 200, 400), None, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.5359164880449439,
+        "last_rev": 2583,
+        "last_value": 57.313863979,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((3650, 200, 400), None, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((3650, 200, 400), {'x': 25, 'y': 25}, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((3650, 200, 400), {'x': 25, 'y': 25}, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": 4,
+        "last_err": 0.0001557540166666688,
+        "last_rev": 2586,
+        "last_value": 0.012097008611111114,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((100, 25, 25), None, None)",
+        "prev_value": 0.012409616111111113
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": 5,
+        "last_err": 0.00011259316828703941,
+        "last_rev": 2586,
+        "last_value": 0.01213215552777778,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((100, 25, 25), None, 3)",
+        "prev_value": 0.012405715305555553
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 0.000332141865914787,
+        "last_rev": 2586,
+        "last_value": 0.016238004000000004,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((100, 25, 25), {'x': 25, 'y': 25}, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 0.00023575243295739077,
+        "last_rev": 2586,
+        "last_value": 0.015921920928571434,
+        "name": "dataarray_missing.time_bfill",
+        "pretty_name": "dataarray_missing.time_bfill((100, 25, 25), {'x': 25, 'y': 25}, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.49039553022727306,
+        "last_rev": 2583,
+        "last_value": 58.314202133,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((3650, 200, 400), None, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.4780367169101119,
+        "last_rev": 2580,
+        "last_value": 58.182877727000005,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((3650, 200, 400), None, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((3650, 200, 400), {'x': 25, 'y': 25}, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((3650, 200, 400), {'x': 25, 'y': 25}, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": 4,
+        "last_err": 9.798283541666714e-05,
+        "last_rev": 2586,
+        "last_value": 0.012039642555555556,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((100, 25, 25), None, None)",
+        "prev_value": 0.012364593243055562
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": 5,
+        "last_err": 0.00010098282245370333,
+        "last_rev": 2586,
+        "last_value": 0.012080779749999992,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((100, 25, 25), None, 3)",
+        "prev_value": 0.012376466166666662
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 0.00019886390225563812,
+        "last_rev": 2586,
+        "last_value": 0.01601241514285713,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((100, 25, 25), {'x': 25, 'y': 25}, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 0.00025886721553884646,
+        "last_rev": 2586,
+        "last_value": 0.016173824499999982,
+        "name": "dataarray_missing.time_ffill",
+        "pretty_name": "dataarray_missing.time_ffill((100, 25, 25), {'x': 25, 'y': 25}, 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'linear', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'linear', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'spline', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'spline', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 4,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'quadratic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'quadratic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'cubic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), None, 'cubic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 8,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'linear', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 9,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'linear', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 10,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'spline', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 11,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'spline', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 12,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'quadratic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 13,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'quadratic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 14,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'cubic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 15,
+        "last_err": null,
+        "last_rev": null,
+        "last_value": null,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((3650, 200, 400), {'x': 25, 'y': 25}, 'cubic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 16,
+        "last_err": 0.0007985047040816339,
+        "last_rev": 2586,
+        "last_value": 0.03816650524999998,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'linear', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 17,
+        "last_err": 0.0004989070773809478,
+        "last_rev": 2586,
+        "last_value": 0.040318505583333324,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'linear', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 18,
+        "last_err": 0.0006137812653061224,
+        "last_rev": 2586,
+        "last_value": 0.038164883166666684,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'spline', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 19,
+        "last_err": 0.000570383261054425,
+        "last_rev": 2586,
+        "last_value": 0.040340695749999995,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'spline', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 20,
+        "last_err": 0.0006592830986394549,
+        "last_rev": 2586,
+        "last_value": 0.038255392249999985,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'quadratic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 21,
+        "last_err": 0.0006714848622448934,
+        "last_rev": 2586,
+        "last_value": 0.04043935800000001,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'quadratic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 22,
+        "last_err": 0.0006650109319727894,
+        "last_rev": 2586,
+        "last_value": 0.03810235441666665,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'cubic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 23,
+        "last_err": 0.0007462118792517043,
+        "last_rev": 2586,
+        "last_value": 0.040573666916666654,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), None, 'cubic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 24,
+        "last_err": 0.0006159367368420944,
+        "last_rev": 2586,
+        "last_value": 0.04376973599999995,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'linear', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 25,
+        "last_err": 0.0008340576315789315,
+        "last_rev": 2586,
+        "last_value": 0.06553599700000001,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'linear', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 26,
+        "last_err": 0.0004393765000000152,
+        "last_rev": 2586,
+        "last_value": 0.043884197499999944,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'spline', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 27,
+        "last_err": 0.0008483175526316062,
+        "last_rev": 2586,
+        "last_value": 0.06579370150000002,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'spline', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 28,
+        "last_err": 0.00053670607894737,
+        "last_rev": 2586,
+        "last_value": 0.043852769499999944,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'quadratic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 29,
+        "last_err": 0.0006143882105263194,
+        "last_rev": 2586,
+        "last_value": 0.06619964249999999,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'quadratic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 30,
+        "last_err": 0.0004571176578947573,
+        "last_rev": 2586,
+        "last_value": 0.04368976250000001,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'cubic', None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 31,
+        "last_err": 0.0007083376052631383,
+        "last_rev": 2586,
+        "last_value": 0.065358107,
+        "name": "dataarray_missing.time_interpolate_na",
+        "pretty_name": "dataarray_missing.time_interpolate_na((100, 25, 25), {'x': 25, 'y': 25}, 'cubic', 3)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.015212626505263172,
+        "last_rev": 2586,
+        "last_value": 0.4069756388,
+        "name": "dataset_io.IOReadMultipleNetCDF3.time_load_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3.time_load_dataset_netcdf4",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.010574309902040814,
+        "last_rev": 2586,
+        "last_value": 0.42803295519999995,
+        "name": "dataset_io.IOReadMultipleNetCDF3.time_load_dataset_scipy",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3.time_load_dataset_scipy",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0015468281368421135,
+        "last_rev": 2586,
+        "last_value": 0.06361892520000004,
+        "name": "dataset_io.IOReadMultipleNetCDF3.time_open_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3.time_open_dataset_netcdf4",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0012049953102040796,
+        "last_rev": 2586,
+        "last_value": 0.059190058799999966,
+        "name": "dataset_io.IOReadMultipleNetCDF3.time_open_dataset_scipy",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3.time_open_dataset_scipy",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.004111721105263165,
+        "last_rev": 2586,
+        "last_value": 0.44028643920000005,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0038383287368420893,
+        "last_rev": 2586,
+        "last_value": 0.7342735234,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.002356073905263168,
+        "last_rev": 2586,
+        "last_value": 0.18756821180000002,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.003960257663157908,
+        "last_rev": 2586,
+        "last_value": 0.43363467920000004,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.005923588413333336,
+        "last_rev": 2586,
+        "last_value": 0.6954026554999999,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks",
+        "prev_value": 0.6789758031
+    },
+    {
+        "change_rev": [
+            null,
+            2548
+        ],
+        "idx": null,
+        "last_err": 0.003308280970588229,
+        "last_rev": 2586,
+        "last_value": 0.42342565509999996,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_scipy_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_load_dataset_scipy_with_time_chunks",
+        "prev_value": 0.4182455023
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.00078750671578947,
+        "last_rev": 2586,
+        "last_value": 0.06561793080000004,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0012252876842105264,
+        "last_rev": 2586,
+        "last_value": 0.066093153,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0010834280421052553,
+        "last_rev": 2586,
+        "last_value": 0.06400646119999998,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0015313645368421175,
+        "last_rev": 2586,
+        "last_value": 0.06401640579999998,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0012661230697674439,
+        "last_rev": 2586,
+        "last_value": 0.06182555960000005,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_scipy_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_scipy_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0014343919534883726,
+        "last_rev": 2586,
+        "last_value": 0.05996713760000003,
+        "name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_scipy_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF3Dask.time_open_dataset_scipy_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.011812218095918365,
+        "last_rev": 2586,
+        "last_value": 0.38462018479999993,
+        "name": "dataset_io.IOReadMultipleNetCDF4.time_load_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4.time_load_dataset_netcdf4",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2550
+        ],
+        "idx": null,
+        "last_err": 0.0006405877687500061,
+        "last_rev": 2586,
+        "last_value": 0.06910679339999995,
+        "name": "dataset_io.IOReadMultipleNetCDF4.time_open_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4.time_open_dataset_netcdf4",
+        "prev_value": 0.06766456000000001
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.005833994626530618,
+        "last_rev": 2586,
+        "last_value": 0.4494079904999999,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.005969617769767446,
+        "last_rev": 2586,
+        "last_value": 0.7648358984,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0022601348448979593,
+        "last_rev": 2586,
+        "last_value": 0.18743339539999998,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0035745114558139515,
+        "last_rev": 2586,
+        "last_value": 0.4466976447999999,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2485
+        ],
+        "idx": null,
+        "last_err": 0.0011493355808510604,
+        "last_rev": 2586,
+        "last_value": 0.0706938956,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_block_chunks",
+        "prev_value": 0.07984491859999995
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0010188632627906966,
+        "last_rev": 2586,
+        "last_value": 0.0707530738,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2485
+        ],
+        "idx": null,
+        "last_err": 0.0011487309936170302,
+        "last_rev": 2586,
+        "last_value": 0.0686930775,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_time_chunks",
+        "prev_value": 0.07812648450000004
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0011855994209302306,
+        "last_rev": 2586,
+        "last_value": 0.06882620009999996,
+        "name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadMultipleNetCDF4Dask.time_open_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0006075146736842286,
+        "last_rev": 2586,
+        "last_value": 0.027126291999999986,
+        "name": "dataset_io.IOReadSingleNetCDF3.time_load_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3.time_load_dataset_netcdf4",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.0010385561733333253,
+        "last_rev": 2586,
+        "last_value": 0.08285799800000002,
+        "name": "dataset_io.IOReadSingleNetCDF3.time_load_dataset_scipy",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3.time_load_dataset_scipy",
+        "prev_value": 0.07829957230000001
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.0002579044466666562,
+        "last_rev": 2586,
+        "last_value": 0.006437502200000012,
+        "name": "dataset_io.IOReadSingleNetCDF3.time_orthogonal_indexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3.time_orthogonal_indexing",
+        "prev_value": 0.004787864800000019
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.00021285760666666317,
+        "last_rev": 2586,
+        "last_value": 0.00551083349999999,
+        "name": "dataset_io.IOReadSingleNetCDF3.time_vectorized_indexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3.time_vectorized_indexing",
+        "prev_value": 0.004301723000000113
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0025791085684210464,
+        "last_rev": 2586,
+        "last_value": 0.181634429,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0012441542210526312,
+        "last_rev": 2586,
+        "last_value": 0.1849464062,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.018832936221052653,
+        "last_rev": 2586,
+        "last_value": 2.607932452,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_oindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_oindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0013155166421052657,
+        "last_rev": 2586,
+        "last_value": 0.1777443976,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_vindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_block_chunks_vindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0007794849368421118,
+        "last_rev": 2586,
+        "last_value": 0.09773023160000002,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0016737530947368514,
+        "last_rev": 2586,
+        "last_value": 0.17322697099999998,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0018256179697674485,
+        "last_rev": 2586,
+        "last_value": 0.17902297469999998,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.02099821315714284,
+        "last_rev": 2586,
+        "last_value": 2.5937111648,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks_oindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks_oindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0013527277816326492,
+        "last_rev": 2586,
+        "last_value": 0.1324296264,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks_vindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_block_chunks_vindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.002185388465116275,
+        "last_rev": 2586,
+        "last_value": 0.17224461889999998,
+        "name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF3Dask.time_load_dataset_scipy_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0005281121225806261,
+        "last_rev": 2586,
+        "last_value": 0.020699146400000056,
+        "name": "dataset_io.IOReadSingleNetCDF4.time_load_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4.time_load_dataset_netcdf4",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.033402908948979584,
+        "last_rev": 2586,
+        "last_value": 1.4891920842,
+        "name": "dataset_io.IOReadSingleNetCDF4.time_orthogonal_indexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4.time_orthogonal_indexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2547
+        ],
+        "idx": null,
+        "last_err": 0.017533473965714298,
+        "last_rev": 2586,
+        "last_value": 0.7042238582,
+        "name": "dataset_io.IOReadSingleNetCDF4.time_vectorized_indexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4.time_vectorized_indexing",
+        "prev_value": 0.9524986396000001
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.002302536475510206,
+        "last_rev": 2586,
+        "last_value": 0.17041713080000004,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0017471409790697685,
+        "last_rev": 2586,
+        "last_value": 0.1923343751,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.027351776891836755,
+        "last_rev": 2586,
+        "last_value": 2.5872788981,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_oindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_oindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0022734979836734784,
+        "last_rev": 2586,
+        "last_value": 0.17486060919999996,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_vindexing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_block_chunks_vindexing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0012568588265306113,
+        "last_rev": 2586,
+        "last_value": 0.09092812430000002,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0017958743465116285,
+        "last_rev": 2586,
+        "last_value": 0.18153719540000002,
+        "name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "pretty_name": "dataset_io.IOReadSingleNetCDF4Dask.time_load_dataset_netcdf4_with_time_chunks_multiprocessing",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.004073165606666661,
+        "last_rev": 2586,
+        "last_value": 0.34477399350000004,
+        "name": "dataset_io.IOWriteMultipleNetCDF3.time_write_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOWriteMultipleNetCDF3.time_write_dataset_netcdf4",
+        "prev_value": 0.35719622110000004
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.0015439575133333356,
+        "last_rev": 2586,
+        "last_value": 0.10165074129999999,
+        "name": "dataset_io.IOWriteMultipleNetCDF3.time_write_dataset_scipy",
+        "pretty_name": "dataset_io.IOWriteMultipleNetCDF3.time_write_dataset_scipy",
+        "prev_value": 0.11686851330000003
+    },
+    {
+        "change_rev": [
+            null,
+            2485
+        ],
+        "idx": null,
+        "last_err": 0.002187840010638297,
+        "last_rev": 2586,
+        "last_value": 0.17833058300000001,
+        "name": "dataset_io.IOWriteNetCDFDask.time_write",
+        "pretty_name": "dataset_io.IOWriteNetCDFDask.time_write",
+        "prev_value": 0.7376042692
+    },
+    {
+        "change_rev": [
+            null,
+            2485
+        ],
+        "idx": null,
+        "last_err": 0.048779476851063854,
+        "last_rev": 2586,
+        "last_value": 1.297421385,
+        "name": "dataset_io.IOWriteNetCDFDaskDistributed.time_write",
+        "pretty_name": "dataset_io.IOWriteNetCDFDaskDistributed.time_write",
+        "prev_value": 2.4164310365
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.0039546317466666705,
+        "last_rev": 2586,
+        "last_value": 0.319855981,
+        "name": "dataset_io.IOWriteSingleNetCDF3.time_write_dataset_netcdf4",
+        "pretty_name": "dataset_io.IOWriteSingleNetCDF3.time_write_dataset_netcdf4",
+        "prev_value": 0.33226332309999995
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.002358755806666666,
+        "last_rev": 2586,
+        "last_value": 0.07348781729999998,
+        "name": "dataset_io.IOWriteSingleNetCDF3.time_write_dataset_scipy",
+        "pretty_name": "dataset_io.IOWriteSingleNetCDF3.time_write_dataset_scipy",
+        "prev_value": 0.09179796630000006
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 1.0279342205612703e-05,
+        "last_rev": 2586,
+        "last_value": 0.00041763719465648895,
+        "name": "indexing.Assignment.time_assignment_basic",
+        "pretty_name": "indexing.Assignment.time_assignment_basic('1slice')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 1.0566155090993073e-05,
+        "last_rev": 2586,
+        "last_value": 0.0004078903296296298,
+        "name": "indexing.Assignment.time_assignment_basic",
+        "pretty_name": "indexing.Assignment.time_assignment_basic('1slice-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 1.226408118906561e-05,
+        "last_rev": 2586,
+        "last_value": 0.0004425573493975917,
+        "name": "indexing.Assignment.time_assignment_basic",
+        "pretty_name": "indexing.Assignment.time_assignment_basic('2slicess-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 2.021935261837747e-05,
+        "last_rev": 2586,
+        "last_value": 0.0017883022741935547,
+        "name": "indexing.Assignment.time_assignment_outer",
+        "pretty_name": "indexing.Assignment.time_assignment_outer('1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 7.091982453007494e-05,
+        "last_rev": 2586,
+        "last_value": 0.0037104602500000077,
+        "name": "indexing.Assignment.time_assignment_outer",
+        "pretty_name": "indexing.Assignment.time_assignment_outer('2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 1.6483203422287005e-05,
+        "last_rev": 2586,
+        "last_value": 0.0005755033697916676,
+        "name": "indexing.Assignment.time_assignment_outer",
+        "pretty_name": "indexing.Assignment.time_assignment_outer('2d-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 3.88842285257439e-05,
+        "last_rev": 2586,
+        "last_value": 0.00178730540322581,
+        "name": "indexing.Assignment.time_assignment_vectorized",
+        "pretty_name": "indexing.Assignment.time_assignment_vectorized('1-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 1.0394021162820678e-05,
+        "last_rev": 2586,
+        "last_value": 0.0006727057515151538,
+        "name": "indexing.Assignment.time_assignment_vectorized",
+        "pretty_name": "indexing.Assignment.time_assignment_vectorized('2-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 2.787455550169125e-05,
+        "last_rev": 2586,
+        "last_value": 0.0007064140422535202,
+        "name": "indexing.Assignment.time_assignment_vectorized",
+        "pretty_name": "indexing.Assignment.time_assignment_vectorized('3-2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 1.3368929662430622e-05,
+        "last_rev": 2586,
+        "last_value": 0.0003988220179856119,
+        "name": "indexing.Indexing.time_indexing_basic",
+        "pretty_name": "indexing.Indexing.time_indexing_basic('1slice')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 1.3340318632277136e-05,
+        "last_rev": 2586,
+        "last_value": 0.00041150414661654126,
+        "name": "indexing.Indexing.time_indexing_basic",
+        "pretty_name": "indexing.Indexing.time_indexing_basic('1slice-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 1.48462673389685e-05,
+        "last_rev": 2586,
+        "last_value": 0.0004533917868852461,
+        "name": "indexing.Indexing.time_indexing_basic",
+        "pretty_name": "indexing.Indexing.time_indexing_basic('2slicess-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 1.1373124725731878e-05,
+        "last_rev": 2586,
+        "last_value": 0.0015208350821917798,
+        "name": "indexing.Indexing.time_indexing_outer",
+        "pretty_name": "indexing.Indexing.time_indexing_outer('1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 4.050371851672529e-05,
+        "last_rev": 2586,
+        "last_value": 0.0026839948292682932,
+        "name": "indexing.Indexing.time_indexing_outer",
+        "pretty_name": "indexing.Indexing.time_indexing_outer('2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 2.4998936969010476e-05,
+        "last_rev": 2586,
+        "last_value": 0.0008336968962962934,
+        "name": "indexing.Indexing.time_indexing_outer",
+        "pretty_name": "indexing.Indexing.time_indexing_outer('2d-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 1.5299501314079194e-05,
+        "last_rev": 2586,
+        "last_value": 0.0015078050547945188,
+        "name": "indexing.Indexing.time_indexing_vectorized",
+        "pretty_name": "indexing.Indexing.time_indexing_vectorized('1-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 6.644096603302127e-06,
+        "last_rev": 2586,
+        "last_value": 0.0009227039363636366,
+        "name": "indexing.Indexing.time_indexing_vectorized",
+        "pretty_name": "indexing.Indexing.time_indexing_vectorized('2-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 1.0303311924522268e-05,
+        "last_rev": 2586,
+        "last_value": 0.000758443441379308,
+        "name": "indexing.Indexing.time_indexing_vectorized",
+        "pretty_name": "indexing.Indexing.time_indexing_vectorized('3-2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.0008079358210526426,
+        "last_rev": 2586,
+        "last_value": 0.024061314199999906,
+        "name": "indexing.IndexingDask.time_indexing_basic",
+        "pretty_name": "indexing.IndexingDask.time_indexing_basic('1slice')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.0012254134973684256,
+        "last_rev": 2586,
+        "last_value": 0.023186258199999976,
+        "name": "indexing.IndexingDask.time_indexing_basic",
+        "pretty_name": "indexing.IndexingDask.time_indexing_basic('1slice-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.007200459684210488,
+        "last_rev": 2586,
+        "last_value": 0.17975060799999998,
+        "name": "indexing.IndexingDask.time_indexing_basic",
+        "pretty_name": "indexing.IndexingDask.time_indexing_basic('2slicess-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.0685007262105263,
+        "last_rev": 2586,
+        "last_value": 3.1348471040000003,
+        "name": "indexing.IndexingDask.time_indexing_outer",
+        "pretty_name": "indexing.IndexingDask.time_indexing_outer('1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.27392031605263156,
+        "last_rev": 2586,
+        "last_value": 27.570667663000002,
+        "name": "indexing.IndexingDask.time_indexing_outer",
+        "pretty_name": "indexing.IndexingDask.time_indexing_outer('2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.11227149552631573,
+        "last_rev": 2586,
+        "last_value": 6.108593994,
+        "name": "indexing.IndexingDask.time_indexing_outer",
+        "pretty_name": "indexing.IndexingDask.time_indexing_outer('2d-1scalar')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.051726338894736795,
+        "last_rev": 2586,
+        "last_value": 3.1568379749999997,
+        "name": "indexing.IndexingDask.time_indexing_vectorized",
+        "pretty_name": "indexing.IndexingDask.time_indexing_vectorized('1-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.029478167315789502,
+        "last_rev": 2586,
+        "last_value": 1.1863103489999993,
+        "name": "indexing.IndexingDask.time_indexing_vectorized",
+        "pretty_name": "indexing.IndexingDask.time_indexing_vectorized('2-1d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.007921268736842063,
+        "last_rev": 2586,
+        "last_value": 0.22949049899999974,
+        "name": "indexing.IndexingDask.time_indexing_vectorized",
+        "pretty_name": "indexing.IndexingDask.time_indexing_vectorized('3-2d')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.0027105988010204048,
+        "last_rev": 2586,
+        "last_value": 0.10648601600000007,
+        "name": "interp.Interpolation.time_interpolation",
+        "pretty_name": "interp.Interpolation.time_interpolation('linear', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.0035958318316326194,
+        "last_rev": 2586,
+        "last_value": 0.1787604527500002,
+        "name": "interp.Interpolation.time_interpolation",
+        "pretty_name": "interp.Interpolation.time_interpolation('linear', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.014478469668367314,
+        "last_rev": 2586,
+        "last_value": 0.4733666352500001,
+        "name": "interp.Interpolation.time_interpolation",
+        "pretty_name": "interp.Interpolation.time_interpolation('cubic', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.010053093596938716,
+        "last_rev": 2586,
+        "last_value": 0.5287031010000001,
+        "name": "interp.Interpolation.time_interpolation",
+        "pretty_name": "interp.Interpolation.time_interpolation('cubic', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.013022458397959213,
+        "last_rev": 2586,
+        "last_value": 0.6817905680000003,
+        "name": "interp.Interpolation.time_interpolation_2d",
+        "pretty_name": "interp.Interpolation.time_interpolation_2d('linear')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.010660277306122451,
+        "last_rev": 2586,
+        "last_value": 0.5314325625,
+        "name": "interp.Interpolation.time_interpolation_2d",
+        "pretty_name": "interp.Interpolation.time_interpolation_2d('nearest')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.009540885999999915,
+        "last_rev": 2586,
+        "last_value": 0.26585910850000083,
+        "name": "interp.InterpolationDask.time_interpolation",
+        "pretty_name": "interp.InterpolationDask.time_interpolation('linear', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.023150333973684257,
+        "last_rev": 2586,
+        "last_value": 0.4013714359999998,
+        "name": "interp.InterpolationDask.time_interpolation",
+        "pretty_name": "interp.InterpolationDask.time_interpolation('linear', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.16799111826315768,
+        "last_rev": 2586,
+        "last_value": 2.736314394999999,
+        "name": "interp.InterpolationDask.time_interpolation",
+        "pretty_name": "interp.InterpolationDask.time_interpolation('cubic', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.0975826475526316,
+        "last_rev": 2586,
+        "last_value": 2.8571220825,
+        "name": "interp.InterpolationDask.time_interpolation",
+        "pretty_name": "interp.InterpolationDask.time_interpolation('cubic', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.05338893849999995,
+        "last_rev": 2586,
+        "last_value": 0.956799833999999,
+        "name": "interp.InterpolationDask.time_interpolation_2d",
+        "pretty_name": "interp.InterpolationDask.time_interpolation_2d('linear')",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.03964158873684203,
+        "last_rev": 2586,
+        "last_value": 0.806814897999999,
+        "name": "interp.InterpolationDask.time_interpolation_2d",
+        "pretty_name": "interp.InterpolationDask.time_interpolation_2d('nearest')",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2573
+        ],
+        "idx": null,
+        "last_err": 5.016451015964775e-06,
+        "last_rev": 2586,
+        "last_value": 0.001916074576923076,
+        "name": "reindexing.Reindex.time_1d_coarse",
+        "pretty_name": "reindexing.Reindex.time_1d_coarse",
+        "prev_value": 0.0020308862800000062
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.00024485026938775534,
+        "last_rev": 2586,
+        "last_value": 0.023017037900000002,
+        "name": "reindexing.Reindex.time_1d_fine_all_found",
+        "pretty_name": "reindexing.Reindex.time_1d_fine_all_found",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0004296416377550969,
+        "last_rev": 2586,
+        "last_value": 0.059073983,
+        "name": "reindexing.Reindex.time_1d_fine_some_missing",
+        "pretty_name": "reindexing.Reindex.time_1d_fine_some_missing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0001657155297619061,
+        "last_rev": 2586,
+        "last_value": 0.01855426329166666,
+        "name": "reindexing.Reindex.time_2d_coarse",
+        "pretty_name": "reindexing.Reindex.time_2d_coarse",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.001672915030612232,
+        "last_rev": 2586,
+        "last_value": 0.2434885577499999,
+        "name": "reindexing.Reindex.time_2d_fine_all_found",
+        "pretty_name": "reindexing.Reindex.time_2d_fine_all_found",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0029025994795918494,
+        "last_rev": 2586,
+        "last_value": 0.33801251800000004,
+        "name": "reindexing.Reindex.time_2d_fine_some_missing",
+        "pretty_name": "reindexing.Reindex.time_2d_fine_some_missing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.00023683642081339762,
+        "last_rev": 2586,
+        "last_value": 0.010765268450000021,
+        "name": "reindexing.ReindexDask.time_1d_coarse",
+        "pretty_name": "reindexing.ReindexDask.time_1d_coarse",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0032280043157895356,
+        "last_rev": 2586,
+        "last_value": 0.11905081399999995,
+        "name": "reindexing.ReindexDask.time_1d_fine_all_found",
+        "pretty_name": "reindexing.ReindexDask.time_1d_fine_all_found",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.006994482710526373,
+        "last_rev": 2586,
+        "last_value": 0.20674503150000012,
+        "name": "reindexing.ReindexDask.time_1d_fine_some_missing",
+        "pretty_name": "reindexing.ReindexDask.time_1d_fine_some_missing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.004255631947368432,
+        "last_rev": 2586,
+        "last_value": 0.10273275599999998,
+        "name": "reindexing.ReindexDask.time_2d_coarse",
+        "pretty_name": "reindexing.ReindexDask.time_2d_coarse",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.05580605900000014,
+        "last_rev": 2586,
+        "last_value": 2.1094607090000004,
+        "name": "reindexing.ReindexDask.time_2d_fine_all_found",
+        "pretty_name": "reindexing.ReindexDask.time_2d_fine_all_found",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.04804769268421055,
+        "last_rev": 2586,
+        "last_value": 2.4454330735000003,
+        "name": "reindexing.ReindexDask.time_2d_fine_some_missing",
+        "pretty_name": "reindexing.ReindexDask.time_2d_fine_some_missing",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.004355122704081712,
+        "last_rev": 2586,
+        "last_value": 0.2857006675,
+        "name": "rolling.Rolling.time_rolling",
+        "pretty_name": "rolling.Rolling.time_rolling('mean', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.0005914399336734761,
+        "last_rev": 2586,
+        "last_value": 0.058951711500000226,
+        "name": "rolling.Rolling.time_rolling",
+        "pretty_name": "rolling.Rolling.time_rolling('mean', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.014149851010204082,
+        "last_rev": 2586,
+        "last_value": 0.7529114574999989,
+        "name": "rolling.Rolling.time_rolling",
+        "pretty_name": "rolling.Rolling.time_rolling('count', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.016656121178571414,
+        "last_rev": 2586,
+        "last_value": 0.7488952800000002,
+        "name": "rolling.Rolling.time_rolling",
+        "pretty_name": "rolling.Rolling.time_rolling('count', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.012265894163265274,
+        "last_rev": 2586,
+        "last_value": 1.7062856045000006,
+        "name": "rolling.Rolling.time_rolling_construct",
+        "pretty_name": "rolling.Rolling.time_rolling_construct(True, 1)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.0016731295153061933,
+        "last_rev": 2586,
+        "last_value": 0.12097428574999913,
+        "name": "rolling.Rolling.time_rolling_construct",
+        "pretty_name": "rolling.Rolling.time_rolling_construct(True, 200)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.01026189810204068,
+        "last_rev": 2586,
+        "last_value": 1.6914190040000001,
+        "name": "rolling.Rolling.time_rolling_construct",
+        "pretty_name": "rolling.Rolling.time_rolling_construct(False, 1)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.002151865637755159,
+        "last_rev": 2586,
+        "last_value": 0.10371854350000032,
+        "name": "rolling.Rolling.time_rolling_construct",
+        "pretty_name": "rolling.Rolling.time_rolling_construct(False, 200)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.016730573571428615,
+        "last_rev": 2586,
+        "last_value": 2.2400128970000006,
+        "name": "rolling.Rolling.time_rolling_long",
+        "pretty_name": "rolling.Rolling.time_rolling_long('mean', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.00044989951530614885,
+        "last_rev": 2586,
+        "last_value": 0.1354408795000004,
+        "name": "rolling.Rolling.time_rolling_long",
+        "pretty_name": "rolling.Rolling.time_rolling_long('mean', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.026598266091836655,
+        "last_rev": 2586,
+        "last_value": 3.4897272650000004,
+        "name": "rolling.Rolling.time_rolling_long",
+        "pretty_name": "rolling.Rolling.time_rolling_long('count', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.021705920857142836,
+        "last_rev": 2586,
+        "last_value": 2.1215464065000003,
+        "name": "rolling.Rolling.time_rolling_long",
+        "pretty_name": "rolling.Rolling.time_rolling_long('count', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.03114058784693876,
+        "last_rev": 2586,
+        "last_value": 2.910023230500001,
+        "name": "rolling.Rolling.time_rolling_np",
+        "pretty_name": "rolling.Rolling.time_rolling_np(20, 5)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.029251429826530645,
+        "last_rev": 2586,
+        "last_value": 2.9470237235,
+        "name": "rolling.Rolling.time_rolling_np",
+        "pretty_name": "rolling.Rolling.time_rolling_np(20, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.043610177408163295,
+        "last_rev": 2586,
+        "last_value": 4.393355946,
+        "name": "rolling.Rolling.time_rolling_np",
+        "pretty_name": "rolling.Rolling.time_rolling_np(40, 5)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.02896939589795908,
+        "last_rev": 2586,
+        "last_value": 4.4236285455,
+        "name": "rolling.Rolling.time_rolling_np",
+        "pretty_name": "rolling.Rolling.time_rolling_np(40, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.11684886878947359,
+        "last_rev": 2586,
+        "last_value": 1.0423281549999999,
+        "name": "rolling.RollingDask.time_rolling",
+        "pretty_name": "rolling.RollingDask.time_rolling('mean', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.1158904622105263,
+        "last_rev": 2586,
+        "last_value": 0.9857075730000009,
+        "name": "rolling.RollingDask.time_rolling",
+        "pretty_name": "rolling.RollingDask.time_rolling('mean', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.02822123568421048,
+        "last_rev": 2586,
+        "last_value": 4.056070888000001,
+        "name": "rolling.RollingDask.time_rolling",
+        "pretty_name": "rolling.RollingDask.time_rolling('count', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.02847431957894746,
+        "last_rev": 2586,
+        "last_value": 4.0476736980000005,
+        "name": "rolling.RollingDask.time_rolling",
+        "pretty_name": "rolling.RollingDask.time_rolling('count', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.031257752736842025,
+        "last_rev": 2586,
+        "last_value": 4.419386977,
+        "name": "rolling.RollingDask.time_rolling_construct",
+        "pretty_name": "rolling.RollingDask.time_rolling_construct(True, 1)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.030177506368421137,
+        "last_rev": 2586,
+        "last_value": 1.5560671400000015,
+        "name": "rolling.RollingDask.time_rolling_construct",
+        "pretty_name": "rolling.RollingDask.time_rolling_construct(True, 200)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.023107204526315473,
+        "last_rev": 2586,
+        "last_value": 4.439463695000001,
+        "name": "rolling.RollingDask.time_rolling_construct",
+        "pretty_name": "rolling.RollingDask.time_rolling_construct(False, 1)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.03078104957894762,
+        "last_rev": 2586,
+        "last_value": 1.5190468250000002,
+        "name": "rolling.RollingDask.time_rolling_construct",
+        "pretty_name": "rolling.RollingDask.time_rolling_construct(False, 200)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.023687909421052734,
+        "last_rev": 2586,
+        "last_value": 2.656354984,
+        "name": "rolling.RollingDask.time_rolling_long",
+        "pretty_name": "rolling.RollingDask.time_rolling_long('mean', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.023853595157894845,
+        "last_rev": 2586,
+        "last_value": 1.0472765809999984,
+        "name": "rolling.RollingDask.time_rolling_long",
+        "pretty_name": "rolling.RollingDask.time_rolling_long('mean', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.03105981168421046,
+        "last_rev": 2586,
+        "last_value": 3.900353417,
+        "name": "rolling.RollingDask.time_rolling_long",
+        "pretty_name": "rolling.RollingDask.time_rolling_long('count', True)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.056047079210526214,
+        "last_rev": 2586,
+        "last_value": 7.572925757,
+        "name": "rolling.RollingDask.time_rolling_long",
+        "pretty_name": "rolling.RollingDask.time_rolling_long('count', False)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.039089990210526754,
+        "last_rev": 2586,
+        "last_value": 9.610227079000001,
+        "name": "rolling.RollingDask.time_rolling_np",
+        "pretty_name": "rolling.RollingDask.time_rolling_np(20, 5)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.047155067684211134,
+        "last_rev": 2586,
+        "last_value": 9.603586792000002,
+        "name": "rolling.RollingDask.time_rolling_np",
+        "pretty_name": "rolling.RollingDask.time_rolling_np(20, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.080112070736842,
+        "last_rev": 2586,
+        "last_value": 11.38587042,
+        "name": "rolling.RollingDask.time_rolling_np",
+        "pretty_name": "rolling.RollingDask.time_rolling_np(40, 5)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.06571796610526355,
+        "last_rev": 2586,
+        "last_value": 11.389711588,
+        "name": "rolling.RollingDask.time_rolling_np",
+        "pretty_name": "rolling.RollingDask.time_rolling_np(40, None)",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            2553
+        ],
+        "idx": null,
+        "last_err": 0.0001480082709359601,
+        "last_rev": 2586,
+        "last_value": 0.016295883333333355,
+        "name": "unstacking.Unstacking.time_unstack_fast",
+        "pretty_name": "unstacking.Unstacking.time_unstack_fast",
+        "prev_value": 0.013276908343750012
+    },
+    {
+        "change_rev": [
+            null,
+            2552
+        ],
+        "idx": null,
+        "last_err": 0.006465129900000015,
+        "last_rev": 2586,
+        "last_value": 0.4589957735,
+        "name": "unstacking.Unstacking.time_unstack_slow",
+        "pretty_name": "unstacking.Unstacking.time_unstack_slow",
+        "prev_value": 0.4489774889999999
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.000945655105263168,
+        "last_rev": 2586,
+        "last_value": 0.13411075400000017,
+        "name": "unstacking.UnstackingDask.time_unstack_fast",
+        "pretty_name": "unstacking.UnstackingDask.time_unstack_fast",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.009123373315789444,
+        "last_rev": 2586,
+        "last_value": 0.7358484579999998,
+        "name": "unstacking.UnstackingDask.time_unstack_slow",
+        "pretty_name": "unstacking.UnstackingDask.time_unstack_slow",
+        "prev_value": null
+    }
+]

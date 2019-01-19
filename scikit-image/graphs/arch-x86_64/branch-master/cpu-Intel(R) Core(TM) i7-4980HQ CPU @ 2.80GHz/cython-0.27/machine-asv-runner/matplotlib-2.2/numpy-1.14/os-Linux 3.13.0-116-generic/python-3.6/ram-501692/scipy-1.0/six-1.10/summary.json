@@ -1,0 +1,1021 @@
+[
+    {
+        "change_rev": [
+            11044,
+            11047
+        ],
+        "idx": null,
+        "last_err": 0.011497233552631722,
+        "last_rev": 11114,
+        "last_value": 1.0428010205,
+        "name": "benchmark_exposure.ExposureSuite.time_equalize_hist",
+        "pretty_name": "benchmark_exposure.ExposureSuite.time_equalize_hist",
+        "prev_value": 0.25157455100000015
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.013193750020325221,
+        "last_rev": 11114,
+        "last_value": 0.7673208709999999,
+        "name": "benchmark_feature.FeatureSuite.time_canny",
+        "pretty_name": "benchmark_feature.FeatureSuite.time_canny",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            10623,
+            10630
+        ],
+        "idx": null,
+        "last_err": 0.0017708515511204582,
+        "last_rev": 11114,
+        "last_value": 0.04697746133333336,
+        "name": "benchmark_feature.FeatureSuite.time_glcm",
+        "pretty_name": "benchmark_feature.FeatureSuite.time_glcm",
+        "prev_value": 0.06858850300000008
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.006080807848837215,
+        "last_rev": 11114,
+        "last_value": 1.2555409175000003,
+        "name": "benchmark_filters.FiltersSuite.time_sobel",
+        "pretty_name": "benchmark_filters.FiltersSuite.time_sobel",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 338784.7111111111,
+        "last_rev": 11114,
+        "last_value": 111624192.0,
+        "name": "benchmark_morphology.Skeletonize3d.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Skeletonize3d.peakmem_reference",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            10924
+        ],
+        "idx": null,
+        "last_err": 379213.3953488372,
+        "last_rev": 11114,
+        "last_value": 111726592.0,
+        "name": "benchmark_morphology.Skeletonize3d.peakmem_skeletonize_3d",
+        "pretty_name": "benchmark_morphology.Skeletonize3d.peakmem_skeletonize_3d",
+        "prev_value": 119240704.0
+    },
+    {
+        "change_rev": [
+            null,
+            10924
+        ],
+        "idx": null,
+        "last_err": 0.0012020826627907185,
+        "last_rev": 11114,
+        "last_value": 0.28090787549999985,
+        "name": "benchmark_morphology.Skeletonize3d.time_skeletonize_3d",
+        "pretty_name": "benchmark_morphology.Skeletonize3d.time_skeletonize_3d",
+        "prev_value": 0.16388881399999994
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 455647.66315789474,
+        "last_rev": 11114,
+        "last_value": 110444544.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(5, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 419775.3263157895,
+        "last_rev": 11114,
+        "last_value": 110428160.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(5, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 457674.1052631579,
+        "last_rev": 11114,
+        "last_value": 110432256.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(5, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 370623.3263157895,
+        "last_rev": 11114,
+        "last_value": 110448640.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(5, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 4,
+        "last_err": 470867.53684210527,
+        "last_rev": 11114,
+        "last_value": 110424064.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(500, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": 363379.8736842105,
+        "last_rev": 11114,
+        "last_value": 110391296.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(500, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 459010.6947368421,
+        "last_rev": 11114,
+        "last_value": 110387200.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(500, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 481085.9789473684,
+        "last_rev": 11114,
+        "last_value": 110370816.0,
+        "name": "benchmark_morphology.Watershed.peakmem_reference",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_reference(500, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 419697.11627906974,
+        "last_rev": 11114,
+        "last_value": 114810880.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(5, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 435509.5813953488,
+        "last_rev": 11114,
+        "last_value": 114864128.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(5, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 419601.8604651163,
+        "last_rev": 11114,
+        "last_value": 114847744.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(5, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 434112.496124031,
+        "last_rev": 11114,
+        "last_value": 114823168.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(5, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 4,
+        "last_err": 445003.41085271316,
+        "last_rev": 11114,
+        "last_value": 114847744.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(500, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": 423856.6201550388,
+        "last_rev": 11114,
+        "last_value": 114753536.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(500, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 459291.7829457364,
+        "last_rev": 11114,
+        "last_value": 114802688.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(500, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 532480.0,
+        "last_rev": 11114,
+        "last_value": 116748288.0,
+        "name": "benchmark_morphology.Watershed.peakmem_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.peakmem_watershed(500, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 0.0017261714728682251,
+        "last_rev": 11114,
+        "last_value": 0.122640254,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(5, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 0.0034739264689922352,
+        "last_rev": 11114,
+        "last_value": 0.2578408550000002,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(5, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 0.0018973113178294692,
+        "last_rev": 11114,
+        "last_value": 0.13934360999999984,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(5, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.008728982023255798,
+        "last_rev": 11114,
+        "last_value": 0.6144188430000002,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(5, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 4,
+        "last_err": 0.0019075713023255882,
+        "last_rev": 11114,
+        "last_value": 0.13646639949999995,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(500, 1, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": 0.006121970158914744,
+        "last_rev": 11114,
+        "last_value": 0.3481617935,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(500, 1, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 0.0022010436259690064,
+        "last_rev": 11114,
+        "last_value": 0.15503691199999992,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(500, 2, 0)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 0.005515389546511629,
+        "last_rev": 11114,
+        "last_value": 0.7999728430000003,
+        "name": "benchmark_morphology.Watershed.time_watershed",
+        "pretty_name": "benchmark_morphology.Watershed.time_watershed(500, 2, 0.01)",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 0,
+        "last_err": 4.634751396471113e-06,
+        "last_rev": 11114,
+        "last_value": 0.0002594233325471698,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('autolevel', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 1,
+        "last_err": 6.831277623906618e-05,
+        "last_rev": 11114,
+        "last_value": 0.0072450156428571465,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('autolevel', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 2,
+        "last_err": 4.882680573423024e-06,
+        "last_rev": 11114,
+        "last_value": 0.00030540313025210114,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('autolevel_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 3,
+        "last_err": 0.00010679448506493559,
+        "last_rev": 11114,
+        "last_value": 0.009846396454545447,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('autolevel_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 4,
+        "last_err": 4.248324157126557e-06,
+        "last_rev": 11114,
+        "last_value": 0.0002068260215355806,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('bottomhat', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 5,
+        "last_err": 5.07347084329032e-05,
+        "last_rev": 11114,
+        "last_value": 0.003986498653846152,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('bottomhat', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 6,
+        "last_err": 5.340583215743935e-06,
+        "last_rev": 11114,
+        "last_value": 0.0002462667253363226,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('enhance_contrast', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 7,
+        "last_err": 0.00017698669888241035,
+        "last_rev": 11114,
+        "last_value": 0.0063431356562499985,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('enhance_contrast', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 8,
+        "last_err": 4.959741436687044e-06,
+        "last_rev": 11114,
+        "last_value": 0.0002873245144356954,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('enhance_contrast_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 9,
+        "last_err": 7.948789486703882e-05,
+        "last_rev": 11114,
+        "last_value": 0.008784479958333341,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('enhance_contrast_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 10,
+        "last_err": 6.995123041165453e-06,
+        "last_rev": 11114,
+        "last_value": 0.0008000103124999995,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('entropy', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 11,
+        "last_err": 0.00022134993877551078,
+        "last_rev": 11114,
+        "last_value": 0.04176333083333332,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('entropy', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 12,
+        "last_err": 5.076205508108912e-06,
+        "last_rev": 11114,
+        "last_value": 0.00024568030786516865,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('equalize', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 13,
+        "last_err": 6.247612563775487e-05,
+        "last_rev": 11114,
+        "last_value": 0.006623776968750002,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('equalize', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 14,
+        "last_err": 7.616488025948981e-06,
+        "last_rev": 11114,
+        "last_value": 0.0005801727566137566,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('geometric_mean', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 15,
+        "last_err": 0.00023006482397959098,
+        "last_rev": 11114,
+        "last_value": 0.02744780462499999,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('geometric_mean', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 16,
+        "last_err": 4.797478392961313e-06,
+        "last_rev": 11114,
+        "last_value": 0.00024435036153846166,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('gradient', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 17,
+        "last_err": 9.023168903811444e-05,
+        "last_rev": 11114,
+        "last_value": 0.006274117031249998,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('gradient', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 18,
+        "last_err": 3.7570020552242936e-06,
+        "last_rev": 11114,
+        "last_value": 0.00016925766666666688,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('gradient_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 19,
+        "last_err": 3.632339277225856e-05,
+        "last_rev": 11114,
+        "last_value": 0.0016152520373134342,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('gradient_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 20,
+        "last_err": 4.977974199368476e-06,
+        "last_rev": 11114,
+        "last_value": 0.00020433107169459964,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('maximum', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 21,
+        "last_err": 5.533272983861162e-05,
+        "last_rev": 11114,
+        "last_value": 0.003854398759259258,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('maximum', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 22,
+        "last_err": 6.87101199580486e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004293853058823534,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 23,
+        "last_err": 0.00022067428741496696,
+        "last_rev": 11114,
+        "last_value": 0.018330802916666677,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 24,
+        "last_err": 8.599856771392653e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004222122142857141,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean_bilateral', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            10997,
+            11001
+        ],
+        "idx": 25,
+        "last_err": 0.00022495875476190536,
+        "last_rev": 11114,
+        "last_value": 0.01770049141666667,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean_bilateral', (256, 256))",
+        "prev_value": 0.01708531012499999
+    },
+    {
+        "change_rev": null,
+        "idx": 26,
+        "last_err": 7.977184784787745e-06,
+        "last_rev": 11114,
+        "last_value": 0.0006823361625000004,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 27,
+        "last_err": 0.0003263072482993209,
+        "last_rev": 11114,
+        "last_value": 0.03435004133333337,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('mean_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 28,
+        "last_err": 4.6320453134574065e-06,
+        "last_rev": 11114,
+        "last_value": 0.00031121518428571456,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('median', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            null,
+            11035
+        ],
+        "idx": 29,
+        "last_err": 9.572246875000133e-05,
+        "last_rev": 11114,
+        "last_value": 0.010141006124999997,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('median', (256, 256))",
+        "prev_value": 0.010373070611111122
+    },
+    {
+        "change_rev": null,
+        "idx": 30,
+        "last_err": 3.878736731418821e-06,
+        "last_rev": 11114,
+        "last_value": 0.00020463974720149269,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('minimum', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 31,
+        "last_err": 4.710929225247099e-05,
+        "last_rev": 11114,
+        "last_value": 0.0038713069814814848,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('minimum', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 32,
+        "last_err": 5.617227103673002e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004137181735849056,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('modal', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 33,
+        "last_err": 0.0001765858418367359,
+        "last_rev": 11114,
+        "last_value": 0.01736528099999999,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('modal', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 34,
+        "last_err": 5.1786814156099155e-06,
+        "last_rev": 11114,
+        "last_value": 0.000264618217603912,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('noise_filter', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 35,
+        "last_err": 7.673345114749036e-05,
+        "last_rev": 11114,
+        "last_value": 0.00716165628571429,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('noise_filter', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            10918,
+            10920
+        ],
+        "idx": 36,
+        "last_err": 1.2794057834249623e-05,
+        "last_rev": 11114,
+        "last_value": 0.0006978355955414015,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('otsu', (32, 32))",
+        "prev_value": 0.0026833143339743603
+    },
+    {
+        "change_rev": [
+            10918,
+            10920
+        ],
+        "idx": 37,
+        "last_err": 0.0006106824851851857,
+        "last_rev": 11114,
+        "last_value": 0.03505193450000006,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('otsu', (256, 256))",
+        "prev_value": 0.16324779424999994
+    },
+    {
+        "change_rev": null,
+        "idx": 38,
+        "last_err": 5.146743124860154e-06,
+        "last_rev": 11114,
+        "last_value": 0.00022624973229166655,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 39,
+        "last_err": 7.455880388471316e-05,
+        "last_rev": 11114,
+        "last_value": 0.0050966927499999926,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 40,
+        "last_err": 4.04396886021191e-06,
+        "last_rev": 11114,
+        "last_value": 0.00016548750983358556,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 41,
+        "last_err": 3.371726398298568e-05,
+        "last_rev": 11114,
+        "last_value": 0.0015228771971831007,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            10997,
+            11001
+        ],
+        "idx": 42,
+        "last_err": 7.707686359621659e-06,
+        "last_rev": 11114,
+        "last_value": 0.00040078939454545466,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop_bilateral', (32, 32))",
+        "prev_value": 0.0004619673142307561
+    },
+    {
+        "change_rev": [
+            10997,
+            11001
+        ],
+        "idx": 43,
+        "last_err": 0.0002236104561224503,
+        "last_rev": 11114,
+        "last_value": 0.0162401502857143,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop_bilateral', (256, 256))",
+        "prev_value": 0.020187606499999983
+    },
+    {
+        "change_rev": null,
+        "idx": 44,
+        "last_err": 9.065442680906025e-06,
+        "last_rev": 11114,
+        "last_value": 0.000658429596385542,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 45,
+        "last_err": 0.000304644755102042,
+        "last_rev": 11114,
+        "last_value": 0.03285178475,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('pop_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 46,
+        "last_err": 5.96033591366752e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004319281062992127,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('subtract_mean', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 47,
+        "last_err": 0.0001706433520408139,
+        "last_rev": 11114,
+        "last_value": 0.018551233333333344,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('subtract_mean', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 48,
+        "last_err": 8.578277754240504e-06,
+        "last_rev": 11114,
+        "last_value": 0.0006877189842767282,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('subtract_mean_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 49,
+        "last_err": 0.0002710017993197279,
+        "last_rev": 11114,
+        "last_value": 0.03470385133333331,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('subtract_mean_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 50,
+        "last_err": 5.412637061628766e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004295852647058821,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 51,
+        "last_err": 0.00013335230102040502,
+        "last_rev": 11114,
+        "last_value": 0.01835458174999998,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            10997,
+            11001
+        ],
+        "idx": 52,
+        "last_err": 4.455184292952882e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004043829314814811,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum_bilateral', (32, 32))",
+        "prev_value": 0.00041568285642513015
+    },
+    {
+        "change_rev": [
+            10997,
+            11001
+        ],
+        "idx": 53,
+        "last_err": 7.69168153061231e-05,
+        "last_rev": 11114,
+        "last_value": 0.016492280571428583,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum_bilateral', (256, 256))",
+        "prev_value": 0.01706328045833334
+    },
+    {
+        "change_rev": null,
+        "idx": 54,
+        "last_err": 5.420193702375357e-06,
+        "last_rev": 11114,
+        "last_value": 0.0006706711993865035,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 55,
+        "last_err": 0.000204614394557821,
+        "last_rev": 11114,
+        "last_value": 0.0336612105,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('sum_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 56,
+        "last_err": 4.544253781448516e-06,
+        "last_rev": 11114,
+        "last_value": 0.0004293717313725488,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('threshold', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 57,
+        "last_err": 0.0001062111989795937,
+        "last_rev": 11114,
+        "last_value": 0.01836912991666666,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('threshold', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 58,
+        "last_err": 2.8498571458641607e-06,
+        "last_rev": 11114,
+        "last_value": 0.0001682141353211011,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('threshold_percentile', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 59,
+        "last_err": 4.319187570086944e-05,
+        "last_rev": 11114,
+        "last_value": 0.001567535833333333,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('threshold_percentile', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 60,
+        "last_err": 4.3449947662494256e-06,
+        "last_rev": 11114,
+        "last_value": 0.0002062942098121086,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('tophat', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": [
+            11030,
+            11034
+        ],
+        "idx": 61,
+        "last_err": 3.516305219202223e-05,
+        "last_rev": 11114,
+        "last_value": 0.003998408865384618,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('tophat', (256, 256))",
+        "prev_value": 0.004367768791666668
+    },
+    {
+        "change_rev": null,
+        "idx": 62,
+        "last_err": 3.771520804589346e-06,
+        "last_rev": 11114,
+        "last_value": 0.0003479407492063492,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('windowed_histogram', (32, 32))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": 63,
+        "last_err": 0.00012625322653061208,
+        "last_rev": 11114,
+        "last_value": 0.021741780299999992,
+        "name": "benchmark_rank.RankSuite.time_filter",
+        "pretty_name": "benchmark_rank.RankSuite.time_filter('windowed_histogram', (256, 256))",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 404038.06315789477,
+        "last_rev": 11114,
+        "last_value": 233435136.0,
+        "name": "benchmark_segmentation.SegmentationSuite.peakmem_setup",
+        "pretty_name": "benchmark_segmentation.SegmentationSuite.peakmem_setup",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 701622.5736434108,
+        "last_rev": 11114,
+        "last_value": 369496064.0,
+        "name": "benchmark_segmentation.SegmentationSuite.peakmem_slic_basic",
+        "pretty_name": "benchmark_segmentation.SegmentationSuite.peakmem_slic_basic",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.013819906744186034,
+        "last_rev": 11114,
+        "last_value": 3.5717876050000004,
+        "name": "benchmark_segmentation.SegmentationSuite.time_slic_basic",
+        "pretty_name": "benchmark_segmentation.SegmentationSuite.time_slic_basic",
+        "prev_value": null
+    }
+]

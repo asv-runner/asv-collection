@@ -1,0 +1,154 @@
+{
+    "regressions": [
+        [
+            "array.FancyIndexing.time_fancy",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-3.5/ram-501692/s3fs/toolz/array.FancyIndexing.time_fancy.json",
+            {
+                "python": "3.5"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        7057,
+                        0.02297535907799214,
+                        0.02705570771299963
+                    ],
+                    [
+                        null,
+                        9753,
+                        0.02736787311732769,
+                        0.04376712813973427
+                    ]
+                ],
+                0.0371202367823571,
+                0.02297535907799214
+            ]
+        ],
+        [
+            "dataframe.MemoryDataFrame.time_scalar_comparison",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-3.5/ram-501692/s3fs/toolz/dataframe.MemoryDataFrame.time_scalar_comparison.json",
+            {
+                "python": "3.5"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9173,
+                        0.029792939063528895,
+                        0.034077499323757365
+                    ]
+                ],
+                0.034077499323757365,
+                0.029792939063528895
+            ]
+        ],
+        [
+            "dataframe.MemoryDataFrame.time_set_index",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-3.5/ram-501692/s3fs/toolz/dataframe.MemoryDataFrame.time_set_index.json",
+            {
+                "python": "3.5"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9173,
+                        0.20669354684650898,
+                        0.23437940949224867
+                    ]
+                ],
+                0.23437940949224867,
+                0.20669354684650898
+            ]
+        ],
+        [
+            "array.Rechunk.time_rechunk",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-2.7/ram-501692/s3fs/toolz/array.Rechunk.time_rechunk.json",
+            {
+                "python": "2.7"
+            },
+            null,
+            [
+                [
+                    [
+                        6019,
+                        6027,
+                        0.03477839827537536,
+                        0.046264065348583724
+                    ],
+                    [
+                        6071,
+                        6074,
+                        0.046264065348583724,
+                        0.06939353285164669
+                    ]
+                ],
+                0.06259948015213013,
+                0.03477839827537536
+            ]
+        ],
+        [
+            "array.Rechunk.time_rechunk_meta",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-2.7/ram-501692/s3fs/toolz/array.Rechunk.time_rechunk_meta.json",
+            {
+                "python": "2.7"
+            },
+            null,
+            [
+                [
+                    [
+                        6340,
+                        6344,
+                        0.006464560709056064,
+                        0.006829872309604537
+                    ],
+                    [
+                        6648,
+                        6652,
+                        0.006829872309604537,
+                        0.007372948682105073
+                    ],
+                    [
+                        null,
+                        9391,
+                        0.007372948682105073,
+                        0.009368495507673784
+                    ],
+                    [
+                        null,
+                        11202,
+                        0.009499213912270286,
+                        0.009711818261580032
+                    ]
+                ],
+                0.009711818261580032,
+                0.006464560709056064
+            ]
+        ],
+        [
+            "dataframe.MemoryDataFrame.time_boolean_indexing",
+            "graphs/arch-x86_64/branch-master/cloudpickle/cpu-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz/distributed/machine-asv-runner/numpy/os-Linux 3.13.0-116-generic/pandas/partd/pip+cityhash/pip+xxhash/pytables/python-2.7/ram-501692/s3fs/toolz/dataframe.MemoryDataFrame.time_boolean_indexing.json",
+            {
+                "python": "2.7"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9173,
+                        0.09049662947654724,
+                        0.10851943492889404
+                    ]
+                ],
+                0.10851943492889404,
+                0.09049662947654724
+            ]
+        ]
+    ]
+}
