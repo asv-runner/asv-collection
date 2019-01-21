@@ -147,9 +147,13 @@ $(document).ready(function() {
         var cursor = [];
         var stack = [tree];
 
-        /* Note: this relies on the fact that the benchmark names are
-           sorted. */
-        $.each($.asv.master_json.benchmarks, function(bm_name, bm) {
+        /* Sort keys for tree construction */
+        var benchmark_keys = Object.keys($.asv.master_json.benchmarks);
+        benchmark_keys.sort();
+
+        /* Build tree */
+        $.each(benchmark_keys, function(i, bm_name) {
+            var bm = $.asv.master_json.benchmarks[bm_name];
             var parts = bm_name.split('.');
             var i = 0;
             var j;
@@ -207,7 +211,7 @@ $(document).ready(function() {
             $('#reference').removeClass('active');
             $('#zoom-y-axis').removeClass('active');
             reference = 1.0;
-            update_state_url({'y-axis': log_scale ? ['log']: []});
+            update_state_url({'y-axis-scale': log_scale ? ['log']: []});
         });
 
         $('#zoom-y-axis').on('click', function(evt) {
@@ -217,7 +221,7 @@ $(document).ready(function() {
             $('#reference').removeClass('active');
             $('#log-scale').removeClass('active');
             reference = 1.0;
-            update_state_url({'y-axis': zoom_y_axis ? ['zoom'] : []});
+            update_state_url({'y-axis-scale': zoom_y_axis ? ['zoom'] : []});
         });
 
         $('#reference').on('click', function(evt) {
@@ -227,6 +231,7 @@ $(document).ready(function() {
             $('#log-scale').removeClass('active');
             $('#zoom-y-axis').removeClass('active');
             if (!reference_scale) {
+                reference = 1.0;
                 update_graphs();
             } else {
                 $('#reference').popover({
@@ -243,14 +248,14 @@ $(document).ready(function() {
             even_spacing = !evt.target.classList.contains("active");
             date_scale = false;
             $('#date-scale').removeClass('active');
-            update_state_url({'x-axis': even_spacing ? ['even'] : []});
+            update_state_url({'x-axis-scale': even_spacing ? ['even'] : []});
         });
 
         $('#date-scale').on('click', function(evt) {
             date_scale = !evt.target.classList.contains("active");
             even_spacing = false;
             $('#even-spacing').removeClass('active');
-            update_state_url({'x-axis': date_scale ? ['date'] : []});
+            update_state_url({'x-axis-scale': date_scale ? ['date'] : []});
         });
 
         tooltip = $("<div></div>");
@@ -287,9 +292,10 @@ $(document).ready(function() {
                     var y = item.datapoint[1];
                     var commit_hash = get_commit_hash(item.datapoint[0]);
                     if (commit_hash) {
+                        var unit = $.asv.master_json.benchmarks[current_benchmark].unit;
                         showTooltip(
                             item.pageX, item.pageY,
-                            $.asv.pretty_second(y) + " @ " + commit_hash);
+                            $.asv.pretty_unit(y, unit) + " @ " + commit_hash);
                     }
                 }
             } else {
@@ -372,6 +378,15 @@ $(document).ready(function() {
 
         /* Default plot: time series */
         x_coordinate_axis = 0;
+        if (state_selection['x-axis'] !== undefined &&
+                state_selection['x-axis'] != "commit") {
+            for (var k = 0; k < params.length; ++k) {
+                if (state_selection['x-axis'] == param_names[k]) {
+                    x_coordinate_axis = k + 1;
+                    break;
+                }
+            }
+        }
 
         /* Default plot: up to 8 lines */
         benchmark_param_selection = [[null]];
@@ -534,11 +549,7 @@ $(document).ready(function() {
                 button.on('click', function (evt) {
                     $(evt.target).siblings().removeClass('active');
                     x_coordinate_axis = axis;
-
-                    check_x_coordinate_axis();
-                    replace_benchmark_params_ui();
-                    replace_graphs();
-                    update_graphs();
+                    update_state_url({'x-axis': [text]});
                 });
             });
         }
@@ -804,6 +815,7 @@ $(document).ready(function() {
         /* Before loading graphs, remove any that are currently
            active. */
         graphs = [];
+        orig_graphs = [];
 
         var to_load = collect_graphs(current_benchmark, state, benchmark_param_selection);
         var failures = 0;
@@ -825,14 +837,14 @@ $(document).ready(function() {
                                                      x_coordinate_axis,
                                                      graph_content[0],
                                                      $.asv.master_json.benchmarks[current_benchmark].params);
-                    graphs.push({
+                    orig_graphs.push({
                         data: series,
                         label: graph_content[1],
                         bars: { order: count, },
                     });
                     count += 1;
                 });
-                orig_graphs = graphs;
+                graphs = orig_graphs;
                 update_graphs();
             }).fail(function () {
                 failures += 1;
@@ -914,6 +926,16 @@ $(document).ready(function() {
             if (min == max) {
                 --min;
             }
+            else if (reference_scale) {
+                // Don't allow the reference level to be at graph top/bottom,
+                // as this can look strange.
+                if (min == 0) {
+                    --min;
+                }
+                if (max == 0) {
+                    ++max;
+                }
+            }
 
             var ticks = [];
             for (var x = min; x <= max; ++x) {
@@ -941,28 +963,49 @@ $(document).ready(function() {
             options.yaxis.min = Math.pow(10, min) * reference;
             options.yaxis.max = Math.pow(10, max) * reference;
 
-        } else if ($.asv.master_json.benchmarks[current_benchmark].unit === 'seconds') {
+            if (!reference_scale) {
+                options.yaxis.axisLabel = $.asv.master_json.benchmarks[current_benchmark].unit;
+            }
+        }
+        else {
+            var unit = $.asv.master_json.benchmarks[current_benchmark].unit;
+            var unit_list = null;
 
-            if (!zoom_y_axis) {
-                options.yaxis.min = 0.0;
-                options.yaxis.max = max * 1.3;
+            if (unit == "seconds") {
+                unit_list = $.asv.time_units;
+            }
+            else if (unit == "bytes") {
+                unit_list = $.asv.mem_units;
             }
 
-            var unit_name = null;
-            var multiplier = null;
-            for (var i = 0; i < $.asv.time_units.length - 1; ++i) {
-                if (min < $.asv.time_units[i+1][2]) {
-                    unit_name = $.asv.time_units[i][1];
-                    multiplier = $.asv.time_units[i][2];
-                    break;
+            if (unit_list !== null) {
+                if (!zoom_y_axis) {
+                    options.yaxis.min = 0.0;
+                    options.yaxis.max = max * 1.3;
                 }
+
+                var unit_name = null;
+                var multiplier = null;
+                for (var i = 0; i < unit_list.length - 1; ++i) {
+                    if (min < unit_list[i+1][2]) {
+                        unit_name = unit_list[i][1];
+                        multiplier = unit_list[i][2];
+                        break;
+                    }
+                }
+            }
+            else {
+                if (unit && unit != "unit") {
+                    unit_name = unit;
+                }
+                multiplier = 1.0;
             }
 
             if (unit_name) {
                 options.yaxis.axisLabel = unit_name;
                 options.yaxis.tickFormatter = function (v, axis) {
                     return (v / multiplier).toPrecision(3);
-                };
+                }
             }
         }
     }
@@ -1039,6 +1082,17 @@ $(document).ready(function() {
                         align: "center"
                     }
                 };
+
+                // deep copy graphs and html-escape x-labels
+                graphs = $.extend(true, [], orig_graphs);
+                $.each(graphs, function(i, graph) {
+                    $.each(graph.data, function(j, point) {
+                        point[0] = $("<span>").text('' + point[0]).html();
+                    });
+                });
+            }
+            else {
+                graphs = orig_graphs;
             }
             var param_names = $.asv.master_json.benchmarks[current_benchmark].param_names;
             options.xaxis.axisLabel = param_names[x_coordinate_axis-1];
@@ -1053,31 +1107,34 @@ $(document).ready(function() {
         }
 
         var markings = [];
-        $.each($.asv.master_json.tags, function(tag, revision) {
-            var x = get_x_from_revision(revision);
-            markings.push(
-                { color: "#ddd", lineWidth: 1, xaxis: { from: x, to: x } }
-            );
-        });
 
-        if (highlighted_revisions) {
-            $.each(highlighted_revisions, function(i, revs) {
-                var x_values = [];
-                $.each(revs, function(i, rev) {
-                    var x = get_x_from_revision(rev);
-                    markings.push(
-                        { color: '#d00', lineWidth: 2, xaxis: { from: x, to: x } }
-                    );
-                    x_values.push(x);
-                });
-                if (revs.length > 1) {
-                    markings.push(
-                        { color: "rgba(200, 0, 0, 0.2)", alpha: 0.5, lineWidth: 2, 
-                          xaxis: { from: Math.min.apply(null, x_values),
-                                   to: Math.max.apply(null, x_values) }}
-                    );
-                }
+        if (x_coordinate_axis == 0) {
+            $.each($.asv.master_json.tags, function(tag, revision) {
+                var x = get_x_from_revision(revision);
+                markings.push(
+                    { color: "#ddd", lineWidth: 1, xaxis: { from: x, to: x } }
+                );
             });
+
+            if (highlighted_revisions) {
+                $.each(highlighted_revisions, function(i, revs) {
+                    var x_values = [];
+                    $.each(revs, function(i, rev) {
+                        var x = get_x_from_revision(rev);
+                        markings.push(
+                            { color: '#d00', lineWidth: 2, xaxis: { from: x, to: x } }
+                        );
+                        x_values.push(x);
+                    });
+                    if (revs.length > 1) {
+                        markings.push(
+                            { color: "rgba(200, 0, 0, 0.2)", alpha: 0.5, lineWidth: 2, 
+                              xaxis: { from: Math.min.apply(null, x_values),
+                                       to: Math.max.apply(null, x_values) }}
+                        );
+                    }
+                });
+            }
         }
 
         var unit;
@@ -1259,6 +1316,11 @@ $(document).ready(function() {
         }
 
         function update_tags() {
+            if (x_coordinate_axis != 0) {
+                /* Only applies when x-axis is the time axis */
+                return;
+            }
+
             /* Add the tags as vertical grid lines */
             var canvas = plot.getCanvas();
             var xmin = plot.getAxes().xaxis.min;
@@ -1301,26 +1363,26 @@ $(document).ready(function() {
             delete params['commits'];
         }
 
-        if (params['y-axis']) {
-            if (params['y-axis'][0] === 'log') {
+        if (params['y-axis-scale']) {
+            if (params['y-axis-scale'][0] === 'log') {
                 $('#log-scale').addClass('active');
                 log_scale = true;
-            } else if (params['y-axis'][0] === 'zoom') {
+            } else if (params['y-axis-scale'][0] === 'zoom') {
                 $('#zoom-y-axis').addClass('active');
                 zoom_y_axis = true;
             }
-            delete params['y-axis'];
+            delete params['y-axis-scale'];
         }
 
-        if (params['x-axis']) {
-            if (params['x-axis'][0] === 'even') {
+        if (params['x-axis-scale']) {
+            if (params['x-axis-scale'][0] === 'even') {
                 $('#even-spacing').addClass('active');
                 even_spacing = true;
-            } else if (params['x-axis'][0] === 'date') {
+            } else if (params['x-axis-scale'][0] === 'date') {
                 $('#date-scale').addClass('active');
                 date_scale = true;
             }
-            delete params['x-axis'];
+            delete params['x-axis-scale'];
         }
 
         if (Object.keys(params).length > 0) {
