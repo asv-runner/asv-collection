@@ -1,1 +1,1 @@
-[{"change_rev": [null, 2492], "last_value": 0.2533464363, "pretty_name": "dataset_io.IOWriteNetCDFDask.time_write", "last_rev": 2601, "name": "dataset_io.IOWriteNetCDFDask.time_write", "idx": null, "prev_value": 0.5134250648, "last_err": 0.0016988590210526315}]
+[{"prev_value": 0.5134250648, "name": "dataset_io.IOWriteNetCDFDask.time_write", "last_value": 0.2533464363, "last_rev": 2601, "last_err": 0.0016988590210526315, "pretty_name": "dataset_io.IOWriteNetCDFDask.time_write", "change_rev": [null, 2492], "idx": null}]
